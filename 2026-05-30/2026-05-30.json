@@ -1,149 +1,135 @@
 {
-  "hero_headline": "Anthropic估值近万亿，美防长称不排除对伊朗动武",
-  "daily_overview": "今日AI领域爆出重磅消息：Anthropic完成650亿美元H轮融资，估值飙升至9650亿美元，并发布Opus 4.8模型，推动AI竞赛迈向新高度；波士顿儿童医院、OpenAI等则展示了AI在医疗与生物防御中的落地价值。财经方面，蓝色起源火箭发射爆炸令商业航天受挫，英国因领导层更迭面临财富税隐忧，环球音乐强硬拒绝潘兴广场收购要约。地缘政治层面，美国防长在香格里拉对话上对中国军力表示“警惕”，同时宣称美有能力恢复对伊朗战争；俄乌冲突外溢效应加剧，一架无人机落入罗马尼亚居民区导致领事遭驱逐，欧洲安全再添变数。",
+  "hero_headline": "俄无人机坠入罗马尼亚，北约集体防御信心受挫",
+  "daily_overview": "今日全球动态中，技术领域巨头Anthropic以9650亿美元估值完成650亿美元融资，并发布Claude Opus 4.8模型；OpenAI启动生物防御项目，波士顿儿童医院借助AI诊断出40余例罕见病。财经方面，美国牛群缩减将牛肉价格推至历史新高；蓝色起源火箭在发射台爆炸；英国顶级厨师呼吁削减餐饮增值税以拯救行业。时政焦点落在俄无人机坠落罗马尼亚境内，触发北约内部对集体防御的深刻忧虑，美国防长则在香格里拉对话会上敦促亚洲盟友增加军费应对中国军事扩张，菲律宾亦对南海威胁表达严重关切。",
   "tech_briefs": [
     {
-      "title": "Anthropic获650亿美元融资，发布Opus 4.8模型",
+      "title": "Anthropic估值9650亿美元并发布Opus 4.8模型",
       "url": "https://news.smol.ai/issues/26-05-28-anthropic-series-h/",
       "source": "Smol AI News",
-      "summary": "Anthropic以9650亿美元估值完成H轮融资，同时推出Claude Opus 4.8模型，在编程与协作行为上获得提升，年化收入已超470亿美元。（多家报道）",
+      "summary": "Anthropic完成650亿美元H轮融资，估值达9650亿美元，同时推出Claude Opus 4.8模型与Dynamic Workflows。新模型在协作与编码任务上有所进步，但用户反馈存在文档解析退化和语言表达随意的问题。（多家报道）",
       "importance": 10
     },
     {
-      "title": "波士顿儿童医院借助AI诊断40余种罕见病",
-      "url": "https://openai.com/index/boston-childrens-hospital",
+      "title": "OpenAI启动Rosalind生物防御项目",
+      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
       "source": "OpenAI News",
-      "summary": "该医院利用OpenAI技术改善患者照护，成功辅助诊断超过40例罕见病，并降低了运营负担。",
+      "summary": "OpenAI推出Rosalind Biodefense，向经审核的开发者和美国政府合作方开放GPT-Rosalind模型，以支持生物防御、公共卫生与大流行应对。",
+      "importance": 9
+    },
+    {
+      "title": "微软开源文件转Markdown工具Markitdown",
+      "url": "https://github.com/microsoft/markitdown",
+      "source": "GitHub Trending",
+      "summary": "microsoft/markitdown是一个Python工具，能将各类文件与办公文档转换为Markdown格式。它解决了文档内容在代码仓库和写作工具间流转的格式化难题，适用于技术文档编写与内容管理流程。",
       "importance": 8
     },
     {
-      "title": "微软开源文档转Markdown工具markitdown",
-      "url": "https://github.com/microsoft/markitdown",
+      "title": "Anthropic发布终端编程智能体Claude Code",
+      "url": "https://github.com/anthropics/claude-code",
       "source": "GitHub Trending",
-      "summary": "微软发布的Python工具可将Office文档及多种文件格式转换为Markdown，方便开发者进行内容处理与集成。",
-      "importance": 6
-    },
-    {
-      "title": "AI短视频生成工具MoneyPrinterTurbo登GitHub热门",
-      "url": "https://github.com/harry0703/MoneyPrinterTurbo",
-      "source": "GitHub Trending",
-      "summary": "该项目利用大模型一键生成高清短视频，整合AI文案与视觉能力，为内容创作者提供低门槛的视频制作方案。",
-      "importance": 7
-    },
-    {
-      "title": "OpenAI推出Rosalind生物防御项目，赋能公共健康",
-      "url": "https://openai.com/index/strengthening-societal-resilience-with-rosalind-biodefense",
-      "source": "OpenAI News",
-      "summary": "OpenAI向经审核的开发者和美国政府合作伙伴开放GPT-Rosalind使用权，以加速生物防御与流行病防范研究。",
+      "summary": "Claude Code是一款运行在终端内的智能编程工具，可理解整个代码库，自动执行常规任务、解释复杂代码并处理Git工作流，旨在帮助开发者提升编码效率与协作体验。",
       "importance": 8
     }
   ],
   "finance_briefs": [
     {
-      "title": "蓝色起源火箭在发射台爆炸，现巨大火球",
-      "url": "https://www.bbc.com/news/articles/cvgzl5wd8xeo?at_medium=RSS&at_campaign=rss",
+      "title": "美国牛肉价格因牛群短缺创历史新高",
+      "url": "https://www.ft.com/content/16468077-84b5-4d1c-b1d7-abe62ba3fa84",
+      "source": "Financial Times",
+      "summary": "受高饲料成本和干旱影响，美国牛群数量降至60年来最低，强劲的消费需求将牛肉价格推至纪录高位。",
+      "importance": 8
+    },
+    {
+      "title": "蓝色起源火箭在佛罗里达发射台爆炸",
+      "url": "https://www.bbc.com/news/articles/cvgzl5wd8xeo",
       "source": "BBC Business",
-      "summary": "杰夫·贝索斯旗下蓝色起源的一枚火箭在佛罗里达发射台发生爆炸，贝索斯称这是“非常艰难的一天”。",
+      "summary": "蓝色起源一枚火箭在发射台发生剧烈爆炸，创始人贝索斯称这是「非常糟糕的一天」，事故原因正在调查。",
       "importance": 9
     },
     {
       "title": "环球音乐拒绝阿克曼旗下基金收购要约",
-      "url": "https://www.bbc.com/news/articles/cn8pnd9yj4eo?at_medium=RSS&at_campaign=rss",
+      "url": "https://www.bbc.com/news/articles/cn8pnd9yj4eo",
       "source": "BBC Business",
-      "summary": "环球音乐称潘兴广场的报价从根本上低估了公司价值，拒绝了这项收购提议。",
+      "summary": "环球音乐表示，潘兴广场资本提出的收购报价严重低估了公司价值，已正式拒绝。",
       "importance": 7
     },
     {
-      "title": "英国领导层不确定性令财富税担忧重燃",
-      "url": "https://www.ft.com/content/0194916f-c741-417d-94c8-b87aa437aee2",
-      "source": "Financial Times",
-      "summary": "英国工党领袖竞争者斯特里廷和伯纳姆均暗示税收改革，引发市场对财富税政策的重新忧虑。",
-      "importance": 7
-    },
-    {
-      "title": "日韩台显现“工业锈带”迹象，AI难掩冲击",
-      "url": "https://www.economist.com/finance-and-economics/2026/05/27/japan-south-korea-and-taiwan-are-suffering-industrial-rot",
-      "source": "The Economist Finance",
-      "summary": "人工智能的繁荣掩盖了日本、韩国和台湾面对中国竞争而出现的传统工业衰退迹象。",
-      "importance": 8
-    },
-    {
-      "title": "法拉利新电动车激化意大利对阿涅利遗产的争论",
-      "url": "https://www.ft.com/content/ae70e7ee-f5d4-4d07-bd20-cadf0fb77144",
-      "source": "Financial Times",
-      "summary": "批评者指责约翰·埃尔坎使家族帝国脱离故土，法拉利电动化转型加剧了这一情绪。",
+      "title": "英国顶级厨师呼吁将餐饮增值税减半至10%",
+      "url": "https://www.bbc.com/news/articles/c78kg45yx0vo",
+      "source": "BBC Business",
+      "summary": "多位英国名厨呼吁政府将餐饮业增值税从20%降至10%，以缓解行业经营压力。",
       "importance": 6
     }
   ],
   "politics_briefs": [
     {
-      "title": "美防长称可随时恢复对伊朗动武，并关注中国军力",
-      "url": "https://www.theguardian.com/world/2026/may/30/us-more-than-capable-of-resuming-war-against-iran-pete-hegseth-says",
-      "source": "The Guardian",
-      "summary": "美国防长赫格塞斯在香格里拉对话会上表示美国“完全有能力”恢复对伊战争，同时对中国军事建设表达“警觉”。（多家报道）",
-      "importance": 9
+      "title": "俄无人机坠入罗马尼亚，北约集体防御信心受挫",
+      "url": "https://www.nytimes.com/2026/05/30/world/europe/europe-nato-russia-anxiety.html",
+      "source": "NYT World",
+      "summary": "一架俄罗斯无人机坠入罗马尼亚境内，造成居民受伤，引发对北约集体防御承诺的质疑，加剧欧洲安全焦虑。（多家报道）",
+      "importance": 10
     },
     {
-      "title": "俄无人机坠落罗马尼亚居民楼，领事被驱逐",
-      "url": "https://www.dw.com/zh/俄无人机坠入居民楼后-罗马尼亚驱逐俄罗斯总领事/a-77349834?maca=chi-rss-chi-all-1127-rdf",
+      "title": "美英澳宣布联合开发水下无人载具技术",
+      "url": "https://www.dw.com/zh/aukus新举措：美英澳合作研发水下无人载具/a-77356573?maca=chi-rss-chi-all-1127-rdf",
       "source": "DW 中文",
-      "summary": "一架俄罗斯无人机在罗马尼亚靠近乌克兰边境处坠毁致两人受伤，罗马尼亚随即驱逐俄驻康斯坦察总领事。",
+      "summary": "AUKUS三方宣布合作研发用于水下无人载具的先进技术和任务载荷，以强化印太安全布局。",
       "importance": 9
     },
     {
-      "title": "特朗普推迟对伊朗方案作“最终决定”",
-      "url": "https://www.bbc.com/news/articles/c0r2d40r91qo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "summary": "美国总统与顾问会晤后未宣布伊朗核协议最终决定，此前美伊已就框架达成一致。",
-      "importance": 8
+      "title": "菲律宾防长称特习会后仍面临中国严重威胁",
+      "url": "https://www.dw.com/zh/菲防长：特习会后，菲律宾仍面临来自中国的-严重威胁/a-77356177?maca=chi-rss-chi-all-1127-rdf",
+      "source": "DW 中文",
+      "summary": "菲律宾国防部长表示，尽管美中关系出现缓和迹象，菲律宾在南海依然面临来自中国的严重威胁。",
+      "importance": 9
     }
   ],
-  "editor_note": "科技资本盛宴与地缘冲突风险并行，AI在医疗、视频等垂直领域的落地速度值得持续观察，而安全议题正深刻重塑大国关系与市场预期。",
+  "editor_note": "科技领域巨头估值狂飙与地缘安全风暴并行，折射出一个既追逐突破又深陷对抗的世界。",
   "keywords": [
+    "俄罗斯无人机",
+    "北约",
     "Anthropic",
     "Opus 4.8",
-    "美伊关系",
-    "蓝色起源",
-    "香格里拉对话",
-    "无人机",
-    "AI视频生成",
-    "财富税"
+    "牛肉价格",
+    "AUKUS",
+    "菲律宾",
+    "蓝色起源"
   ],
   "trading": {
-    "market_overview": "从技术面观察，美股大盘股指仍维持强势突破格局，SPY与QQQ分别处于RSI 74.1和77.2的超买区间，均线系统呈标准多头排列，且近5日涨幅可观，但MACD动能柱已出现收缩迹象。个股方面MSFT受业绩驱动单日大涨5.45%，成为短期动量焦点，而NVDA、GOOGL、TSLA等则在高位震荡。加密市场则处于极度压制状态，恐慌贪婪指数仅23，反映极度恐慌，总市值2.56T美元，BTC主导率57.4%、ETH占比9.5%。BTC-USD、ETH-USD、SOL-USD均处于空头排列，RSI普遍低于40，BTC近5日下跌5%，距52周高回落逾40%，技术面持续疲弱。中概股同样承压，BABA、PDD、JD及0700.HK均呈空头结构，其中PDD 5日重挫13.65%，MACD死叉，RSI下探32.3。商品外汇方面，黄金期货单日涨2.08%表现亮眼，但整体仍在中性区间；WTI原油近5日暴跌9.33%，跌破多条均线；美元指数维持偏多排列，但10Y美债收益率与美元/人民币均出现MACD死叉，后者逼近52周低点。VIX跌至15.32，RSI 35.4，显示市场情绪相对平静。当前跨资产格局呈现美股超买强势与加密、中概弱势的分化状态。",
+    "market_overview": "美股主要指数 ETF 维持强势，SPY 与 QQQ 均呈多头排列且 RSI 超买，但 NVDA、GOOGL 等个股出现短期回调，反映出板块内部分化。科技权重 AAPL 与 MSFT 仍有金叉信号，后者单日大涨 5.45% 突破短期均线。加密市场整体承压，加密恐慌贪婪指数仅 23（极度恐慌），BTC 与 ETH 持续受制于空头排列，SOL、BTC 等距 52 周高低回撤逾 40%。中概股全面走弱，BABA、PDD、JD 及腾讯均处空头排列，PDD 五日急跌 13.65% 伴随 RSI 逼近 30，动能疲弱。商品与外汇方面，黄金围绕 20 日均线窄幅震荡，走势中性；WTI 原油大跌 9.33% 后 RSI 降至 37.9，MACD 死叉；美元指数偏多但 USDCNY 持续下行、RSI 仅 30.6，反映人民币升值压力。整体看，美股指数超买但趋势未破，加密与中概处于显著偏弱格局，商品分化，宏观波动率 VIX 继续回落。",
     "watchlist": [
       {
-        "symbol": "SPY",
-        "display_name": "标普500 ETF (SPY)",
-        "stance": "偏上行",
-        "rationale": "SPY当前价格756.48，高于SMA20 739.34、SMA50 703.65及SMA200 681.17，均线完全多头排列，趋势偏强。RSI 14读数74.1，进入超买区间，显示近期动能充足。近5日涨幅1.85%，接近52周高点仅0.21%距离。MACD柱转负，暗示短期上行动能减弱，但整体结构仍属偏上行。"
-      },
-      {
         "symbol": "QQQ",
-        "display_name": "纳斯达克100 ETF (QQQ)",
+        "display_name": "Nasdaq 100 ETF (QQQ)",
         "stance": "偏上行",
-        "rationale": "QQQ报738.31，站上SMA20 709.04、SMA50 652.93、SMA200 617.85，多头排列明朗。MACD金叉（MACD 21.47略高于信号线21.44），RSI 14高达77.2，属超买区域，同时近5日上涨3.33%，逼近52周高。技术面呈现强烈上攻，但需注意超买可能带来的技术修正风险。"
-      },
-      {
-        "symbol": "BTC-USD",
-        "display_name": "比特币 (BTC-USD)",
-        "stance": "偏下行",
-        "rationale": "比特币报73413.6，低于SMA20 77138.92、SMA50 77213.92及SMA200 79661.3，均线空头排列，趋势向下。RSI 14为35.5，接近超卖区域。距离52周高回撤41.83%，近5日下跌5%，且加密恐慌贪婪指数仅23，极度恐慌。MACD负柱持续扩大，尚无拐头迹象。"
+        "rationale": "当前价格 738.31 高于 SMA20（709.04）/SMA50（652.93）/SMA200（617.85），呈典型多头排列。RSI 14 为 77.2，进入超买区，MACD 柱状刚刚转正（金叉），最新 MACD 21.4696 上穿信号线 21.4381。五日涨幅 3.33%，接近 52 周高点仅差 0.45%，技术面多头动能充足。"
       },
       {
         "symbol": "PDD",
         "display_name": "拼多多 (PDD)",
         "stance": "偏下行",
-        "rationale": "PDD报84.44，大幅低于SMA20 95.79、SMA50 98.42、SMA200 113.23，确认空头排列。MACD死叉（MACD -3.20跌破信号线-1.80），RSI 14仅32.3，已接近超卖边界。近5日跌幅达13.65%，反映强烈抛压，距离52周高回落39.43%，技术结构显著偏弱。"
+        "rationale": "价格 84.44 远低于 SMA20（95.79）与 SMA50（98.42），呈现空头排列。MACD 死叉且柱状为负（-3.2037 信号 -1.7986），RSI 14 低至 32.3，距超卖区仅一步之遥。五日跌幅达 -13.65%，近期下行动能显著，且距 52 周高回撤 -39.43%，显示持续弱势。"
+      },
+      {
+        "symbol": "MSFT",
+        "display_name": "Microsoft (MSFT)",
+        "stance": "偏上行",
+        "rationale": "单日大涨 5.45% 后价格 450.24，一举站上 SMA20（417.59）与 SMA50（402.83），MACD 触发金叉（MACD 5.8019 上穿信号 4.1239）。RSI 虽升至 69.6 但尚未超买。尽管仍低于 SMA200（458.46），短期突破势头明确，打破前期整理区间。"
+      },
+      {
+        "symbol": "BTC-USD",
+        "display_name": "Bitcoin (BTC)",
+        "stance": "偏下行",
+        "rationale": "当前 73930.97 低于 SMA20（77164.79）、SMA50（77224.27）及 SMA200（79663.89），完整空头排列。MACD 死叉加深，柱状 -1018.05，RSI 14 仅 38.2，偏弱。距 52 周高回撤 -41.42%，结合加密恐慌指数 23，反映抛压持续。"
       },
       {
         "symbol": "META",
         "display_name": "Meta (META)",
         "stance": "中性",
-        "rationale": "META报632.51，虽处SMA20 613.33和SMA50 618.53之上，但仍受SMA200 666.57压制，均线未形成一致方向，趋势信号为中性。MACD形成金叉（MACD -1.09上穿信号线-4.30），柱状由负转正，但RSI 14为55.4，处于中性区间。整体价格未突破中期均线，维持震荡整理状态。"
+        "rationale": "价格 632.51，MACD 初现金叉（MACD -1.0923 上穿信号 -4.2974），但尚未改变中期格局。RSI 14 为 55.4，中性偏强。然而价格远低于 SMA200（666.57），仍受长期均线压制，多空力量拉锯，短线反弹未形成趋势突破。"
       }
     ],
-    "risk_caveat": "本报告仅基于公开数据计算的技术指标进行客观描述，所有内容不构成任何投资建议。过去走势不代表未来表现，技术指标存在滞后性，仅供技术指标解读参考，读者需自行承担决策风险。",
+    "risk_caveat": "本报告仅基于公开行情数据计算的技术指标进行客观描述，不构成任何投资建议。过去走势不代表未来表现，技术指标存在滞后及失效可能，所有内容仅供技术指标解读参考。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -399,18 +385,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 73413.6,
-        "pct1Day": 0.05598357610665463,
-        "pct5Day": -5.0030191579293986,
-        "pct52WeekHigh": -41.826685622054285,
-        "pct52WeekLow": 22.204867203981056,
-        "sma20": 77138.921484375,
-        "sma50": 77213.92,
-        "sma200": 79661.30263671876,
-        "rsi14": 35.468236859380355,
-        "macd": -1059.319153297518,
-        "macdSignal": -461.98779753856013,
-        "macdHistogram": -597.3313557589578,
+        "currentPrice": 73930.97,
+        "pct1Day": 0.7611112938969528,
+        "pct5Day": -4.333543911132326,
+        "pct52WeekHigh": -41.41671897200963,
+        "pct52WeekLow": 23.066085454350514,
+        "sma20": 77164.78984375,
+        "sma50": 77224.26734375,
+        "sma200": 79663.88947265624,
+        "rsi14": 38.20673948033778,
+        "macd": -1018.047696744834,
+        "macdSignal": -453.7335062280234,
+        "macdHistogram": -564.3141905168106,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -426,18 +412,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2011.86,
-        "pct1Day": -0.005890501517770154,
-        "pct5Day": -4.713069916617075,
-        "pct52WeekHigh": -59.38699158796004,
-        "pct52WeekLow": 15.053650356791207,
-        "sma20": 2134.725799560547,
-        "sma50": 2247.073601074219,
-        "sma200": 2504.417759399414,
-        "rsi14": 31.656892669099392,
-        "macd": -66.74999011997488,
-        "macdSignal": -55.19930434708376,
-        "macdHistogram": -11.550685772891121,
+        "currentPrice": 2024.84,
+        "pct1Day": 0.639245611974372,
+        "pct5Day": -4.098303306374657,
+        "pct52WeekHigh": -59.12496696935422,
+        "pct52WeekLow": 15.795946730112986,
+        "sma20": 2135.3747985839846,
+        "sma50": 2247.3332006835935,
+        "sma200": 2504.482659301758,
+        "rsi14": 33.84120872157219,
+        "macd": -65.71455008258226,
+        "macdSignal": -54.992216339605235,
+        "macdHistogram": -10.722333742977028,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -453,18 +439,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 82.14,
-        "pct1Day": 0.2532725644854233,
-        "pct5Day": -3.3766481606411913,
-        "pct52WeekHigh": -67.56051007484305,
-        "pct52WeekLow": 19.577556687244556,
-        "sma20": 86.5360206604004,
-        "sma50": 86.40535949707031,
-        "sma200": 104.7969739151001,
-        "rsi14": 39.17516382213711,
-        "macd": -1.4553267776260554,
-        "macdSignal": -0.843383984621388,
-        "macdHistogram": -0.6119427930046675,
+        "currentPrice": 82.86,
+        "pct1Day": 1.1320448586956666,
+        "pct5Day": -2.529694017418179,
+        "pct52WeekHigh": -67.27616100318352,
+        "pct52WeekLow": 20.62571642445926,
+        "sma20": 86.57202072143555,
+        "sma50": 86.41975952148438,
+        "sma200": 104.80057392120361,
+        "rsi14": 41.624470162207615,
+        "macd": -1.3978907828121265,
+        "macdSignal": -0.8318967856586021,
+        "macdHistogram": -0.5659939971535244,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -779,13 +765,13 @@
       "timestamp": "2026-05-30T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2561001711665.4854,
-      "total24hVolumeUsd": 85098514508.22734,
-      "marketCapChangePct24h": 0.09069166932217884,
-      "btcDominance": 57.439720926162586,
-      "ethDominance": 9.481796825961538,
-      "activeCryptocurrencies": 17414
+      "totalMarketCapUsd": 2582086401711.8105,
+      "total24hVolumeUsd": 62089096929.91796,
+      "marketCapChangePct24h": 1.2757154560119741,
+      "btcDominance": 57.37487158729291,
+      "ethDominance": 9.461359904746235,
+      "activeCryptocurrencies": 17403
     },
-    "generated_at": "2026-05-30T09:04:46.379Z"
+    "generated_at": "2026-05-30T18:43:53.823Z"
   }
 }
