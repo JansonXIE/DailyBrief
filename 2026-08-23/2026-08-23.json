@@ -1,149 +1,149 @@
 {
-  "hero_headline": "美加贸易战升级：加拿大宣布对美商品加征报复性关税",
-  "daily_overview": "今日全球焦点围绕美加贸易战急剧升级，美国对加拿大商品加征50%关税，加拿大宣布9月8日起实施对等报复，引发市场震荡。欧洲奢侈品行业在中国市场发现复苏迹象，印度对俄罗斯石油依赖创新高，澳大利亚首现哺乳动物禽流感。技术领域，AI代理平台竞争白热化，OpenAI推出终端编码代理Codex，DeepMind发布Gemini 3.7 Flash并探索游戏AI，Hugging Face推出推理加速方案。时政方面，乌克兰前国防部长公开指责泽连斯基政府腐败，哈萨克斯坦议会选举预计巩固总统权力，金门岛地缘政治风险受关注。",
+  "hero_headline": "美加贸易战全面升级，加拿大宣布报复性关税",
+  "daily_overview": "今日，OpenAI推出轻量级终端AI代理Codex，并启动AI Futures系列探讨AI对社会的重塑，DeepMind发布Gemini 3.7 Flash模型，AI代理能力持续进化。财经领域，阿里巴巴宣布102亿美元股权融资，加码AI投资；美加贸易战全面升级，加拿大宣布报复性关税，特朗普称加拿大想当美国州；美联储Jackson Hole会议受关注，财政与货币政策边界成焦点。时政方面，伊朗警告海湾国家不要参与美国经济战，澳大利亚通过法律要求科技巨头为新闻付费，台风导致嫦娥7号任务推迟。全球市场在波动中寻找方向。",
   "tech_briefs": [
     {
-      "title": "OpenAI开源轻量级终端编码代理Codex",
+      "title": "OpenAI发布轻量终端AI代理Codex",
       "url": "https://github.com/openai/codex",
       "source": "GitHub Trending",
-      "summary": "该项目提供一个在终端运行的轻量级编码代理，支持复杂编程任务，无需离开命令行即可完成代码生成与调试，受到开发者关注。",
+      "summary": "OpenAI开源的轻量级编码代理，可在终端中直接运行，让开发者通过自然语言指令完成代码编写、调试和运行，大幅降低AI编程门槛。",
       "importance": 8
     },
     {
-      "title": "Google DeepMind发布Gemini 3.7 Flash轻量级多模态模型",
-      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
-      "source": "DeepMind Blog",
-      "summary": "Gemini 3.7 Flash是谷歌面向低延迟和高效率场景推出的多模态模型，适用于移动端和边缘设备，性能与成本取得平衡。",
-      "importance": 7
-    },
-    {
-      "title": "OpenAI推出AI Futures博客探讨AI对权力与经济的冲击",
+      "title": "OpenAI启动AI Futures博客探索AI社会影响",
       "url": "https://openai.com/index/introducing-ai-futures",
       "source": "OpenAI News",
-      "summary": "该博客系列将深入分析AI如何重塑权力结构、治理模式、经济体系和个人自由，体现OpenAI对AI社会影响的思考。",
+      "summary": "新博客探讨AI如何重塑权力、治理、经济与个人自由，旨在引发公众对AI变革的深度讨论。",
       "importance": 7
     },
     {
-      "title": "Hugging Face推出LFM2.5-DSpark推理加速方案",
-      "url": "https://huggingface.co/blog/LiquidAI/lfm25-dspark",
-      "source": "Hugging Face Blog",
-      "summary": "LiquidAI的LFM2.5模型通过DSpark技术优化，在保持精度的同时大幅提升推理速度，为生产环境部署提供高效方案。",
+      "title": "DeepMind发布Gemini 3.7 Flash轻量模型",
+      "url": "https://deepmind.google/blog/introducing-gemini-3-7-flash/",
+      "source": "DeepMind Blog",
+      "summary": "新一代轻量级多模态模型，推理速度更快，适用于移动端和边缘设备，进一步扩展Gemini家族产品线。",
+      "importance": 8
+    },
+    {
+      "title": "神秘模型Ox Alpha浮现，或为智谱GLM系列",
+      "url": "https://news.smol.ai/issues/26-08-21-not-much/",
+      "source": "Smol AI News",
+      "summary": "在编码和代理任务中表现强劲，分析认为可能是智谱GLM-5.3 Vision等模型，显示后训练提升效果显著，引发社区关注。",
       "importance": 6
     },
     {
-      "title": "DeepMind总结15年AI游戏研究并与工作室合作开发新玩法",
-      "url": "https://deepmind.google/blog/from-atari-to-eve-online-building-on-15-years-of-ai-research-in-games/",
-      "source": "DeepMind Blog",
-      "summary": "Google DeepMind回顾从Atari到EVE Online的AI游戏研究历程，并与游戏工作室合作开发突破性AI玩法，推动智能体在复杂虚拟环境中的决策能力。",
-      "importance": 6
+      "title": "Matt Pocock发布AI代理技能库Skills",
+      "url": "https://github.com/mattpocock/skills",
+      "source": "GitHub Trending",
+      "summary": "该项目收集了实用的AI代理技能配置，可直接从.agents目录加载，帮助开发者快速集成和自定义代理功能，提升开发效率。",
+      "importance": 5
     }
   ],
   "finance_briefs": [
     {
-      "title": "欧洲奢侈品巨头在中国市场看到复苏迹象",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/europe-s-luxury-giants-discern-green-shoots-in-key-china-market",
+      "title": "阿里巴巴宣布102亿美元股权融资加码AI",
+      "url": "https://www.ft.com/content/e4ab027e-ed41-48b7-89ac-8250d3054ae6?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "summary": "阿里巴巴通过增发股份融资102亿美元，资金将用于加大AI领域投资，此前其Qwen 3.8-Max模型获市场积极回应。",
+      "importance": 9
+    },
+    {
+      "title": "美加贸易战升级，加拿大宣布报复性关税",
+      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "特朗普称加拿大想要“美国州的好处”，加拿大总理宣布对等报复性关税，指责美国挑起贸易战，两国关系急剧恶化。",
+      "importance": 9
+    },
+    {
+      "title": "美联储主席面临Jackson Hole高关注度考验",
+      "url": "https://www.bloomberg.com/news/videos/2026-08-23/fed-faces-high-stakes-test-at-jackson-hole-video",
       "source": "Bloomberg Markets",
-      "summary": "欧洲主要奢侈品公司对中国市场前景转向乐观，消费支出出现脆弱复苏，有望带动行业增长。",
+      "summary": "美联储主席Kevin Warsh在Jackson Hole会议上受到关注，此前财政部干预债券市场引发对财政与货币政策边界的讨论。",
       "importance": 8
     },
     {
-      "title": "美国买家以数十年来最快速度收购欧洲资产管理公司",
-      "url": "https://www.ft.com/content/dd605c6f-8a6e-4664-970b-f4c07ea7a4d2?syn-25a6b1a6=1",
+      "title": "英国能源公司遭伊朗黑客攻击，工厂关闭",
+      "url": "https://www.ft.com/content/bae67bb7-ebf8-44fc-8d55-bbfaada47eb7?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "summary": "欧洲基金集团面临竞争压力，美国企业正加速收购欧洲资产管理公司，以扩大规模和全球布局。",
+      "summary": "伊朗关联黑客攻击英国小型天然气调峰电厂，导致临时关闭，能源行业进入警戒状态，安全部门紧急通报应对。",
       "importance": 7
     },
     {
-      "title": "印度对俄罗斯石油依赖创历史新高",
-      "url": "https://www.ft.com/content/be3c0c6c-0a65-4add-b675-7a5876f625be?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "中东冲突暴露印度能源安全脆弱性，印度对俄罗斯石油的依赖度攀升至前所未有的水平。",
-      "importance": 8
-    },
-    {
-      "title": "债券市场收益率攀升令富裕国家政客不安",
-      "url": "https://www.economist.com/finance-and-economics/2026/08/19/why-bond-markets-are-unnerving-rich-world-politicians",
-      "source": "The Economist Finance",
-      "summary": "尽管股市上涨，但国债收益率持续攀升，引发市场对政府债务负担和财政政策的担忧。",
-      "importance": 7
-    },
-    {
-      "title": "澳大利亚报告首例哺乳动物禽流感",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-23/australia-reports-first-bird-flu-case-in-a-mammal-as-seal-dies",
-      "source": "Bloomberg Markets",
-      "summary": "澳大利亚南澳州一只长鼻海豹死亡后确诊H5禽流感，为该大陆首次在哺乳动物中发现该病毒，引发潜在公共卫生关注。",
-      "importance": 7
+      "title": "CrossCountry铁路取消几乎所有英国服务",
+      "url": "https://www.bbc.co.uk/news/articles/cy9w9y0lz5go?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "由于停电，CrossCountry铁路公司取消几乎所有服务，旅客出行严重受阻，被旅客称为“最坏情况”。",
+      "importance": 6
     }
   ],
   "politics_briefs": [
     {
-      "title": "美国对加拿大商品加征50%关税，加拿大宣布对等报复",
-      "url": "https://www.npr.org/2026/08/22/nx-s1-5941584/us-canada-tariffs",
-      "source": "NPR World",
-      "summary": "美加贸易谈判破裂，美国对价值200亿美元加拿大商品加征50%关税，加拿大总理卡尼宣布将采取「对等报复」措施，贸易战急剧升级。（多家报道）",
-      "importance": 10
-    },
-    {
-      "title": "乌克兰前国防部长指责泽连斯基政府腐败，呼吁举行选举",
-      "url": "https://www.bbc.co.uk/news/articles/cwy4ypzvd7po?at_medium=RSS&at_campaign=rss",
+      "title": "美加贸易战全面升级，特朗普称加拿大想当美国州",
+      "url": "https://www.bbc.co.uk/news/articles/cx272np7vgyo?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "summary": "被解职的乌克兰前国防部长公开批评泽连斯基政府存在腐败问题，并要求在战时举行选举，引发政治动荡。",
+      "summary": "特朗普在贸易谈判破裂后称加拿大想获得“美国州的好处”，加拿大总理宣布匹配报复性关税，两国贸易战急剧升级。",
       "importance": 9
     },
     {
-      "title": "哈萨克斯坦举行议会选举，预计巩固总统权力",
-      "url": "https://www.aljazeera.com/news/2026/8/23/kazakhstan-holds-parliamentary-election-expected-to-cement-presidents-grip?traffic_source=rss",
-      "source": "Al Jazeera",
-      "summary": "只有忠于总统的政党获准参选，此次选举旨在通过宪法改革进一步巩固托卡耶夫的政治控制。",
+      "title": "伊朗警告海湾国家不要参与美国经济战",
+      "url": "https://www.nytimes.com/2026/08/23/world/europe/iran-economy-war-united-states.html",
+      "source": "NYT World",
+      "summary": "伊朗新任国家安全顾问莫赫森·雷扎伊宣称将阻止“一滴油”离开该地区，警告海湾国家配合美国将面临严重后果。",
       "importance": 8
+    },
+    {
+      "title": "澳大利亚通过法律要求科技巨头为新闻付费",
+      "url": "https://www.npr.org/2026/08/21/nx-s1-5939814/big-tech-companies-will-have-to-pay-to-publish-australian-news-content-under-new-laws",
+      "source": "NPR World",
+      "summary": "澳大利亚新法要求谷歌、Meta等平台与新闻出版商达成付费协议，否则需缴纳广告收入税，开创数字平台新闻付费新模式。",
+      "importance": 7
     }
   ],
-  "editor_note": "今日地缘政治与经济信号密集交织，美加贸易战骤然升级，科技领域AI代理与模型加速落地，市场对奢侈品消费复苏及债券压力保持关注，世界正进入高波动新常态。",
+  "editor_note": "今日全球焦点汇聚美加贸易战火重燃、阿里巨额融资加码AI，以及AI代理技术迭代，市场在贸易摩擦与技术创新中谨慎前行。",
   "keywords": [
     "美加贸易战",
+    "阿里巴巴",
+    "Jackson Hole",
     "AI代理",
-    "奢侈品复苏",
-    "印度石油",
-    "债券收益率",
-    "乌克兰腐败",
-    "哈萨克斯坦选举",
-    "禽流感"
+    "OpenAI Codex",
+    "伊朗",
+    "澳大利亚新闻付费",
+    "嫦娥7号"
   ],
   "trading": {
-    "market_overview": "美股方面，SPY 呈多头排列但 MACD 死叉，QQQ 价格围绕 50 日均线、RSI 恰好中性，科技巨擘内部分化：META 处于空头排列且 MACD 死叉，TSLA 空头排列但今日反弹，NVDA 多头排列而 MACD 死叉。加密市场恐慌贪婪指数 66（贪婪），总市值 2.58 万亿美元（24h -4.93%），BTC 主导率 59.1%、ETH 11.2%；BTC 与 ETH 均 RSI 超买且 5 日涨幅超 17%，SOL 同步超买，但 24h 价格普遍回撤，超买后有修正压力。中概股普遍承压，BABA 单日大跌 8.57%，MACD 死叉，腾讯距 52 周高仍深跌。商品方面，黄金期货单日涨 3.64%、RSI 超买并 MACD 金叉，WTI 原油维持多头排列且 MACD 金叉；美元指数 RSI 超卖至 29.7，美元/人民币 RSI 超卖至 19.9 且空头排列，反映美元短期弱势。整体市场技术面分化，美股与商品偏强，加密与中概局部超买或转弱。",
+    "market_overview": "加密市场贪婪指数为 66（贪婪），总市值 2.62 万亿美元，24 小时缩水 3.03%，但比特币、以太坊等主流币种 5 日涨幅分别高达 19.53% 和 27.62%，RSI 均进入超买区，短期动能强劲。美股方面，SPY 维持多头排列但 MACD 死叉，上行动能收敛；科技股内部分化，NVDA 趋势偏多却死叉，TSLA 虽短线反弹 5% 但空头排列未改，META 空头排列叠加 MACD 死叉。中概股整体承压，阿里巴巴单日大跌 8.57%，腾讯横盘震荡。商品外汇中，黄金期货 RSI 超买且创近期新高，原油多头排列；美元指数与美元/人民币均呈超卖，后者空头排列明显，反映风险偏好抬升。多个品种出现超买超卖极致信号，需留意短期修正风险。",
     "watchlist": [
       {
-        "symbol": "GC=F",
-        "display_name": "黄金期货 (GC=F)",
+        "symbol": "BTC-USD",
+        "display_name": "比特币 (BTC-USD)",
         "stance": "偏上行",
-        "rationale": "价格 4680.6 远高于 SMA20（4281）、SMA50（4177）及 SMA200（4499），呈多头排列；RSI 14 达 75.6 进入超买区，MACD 金叉（MACD 109.28，信号 71.22），近 1 日涨 3.64%、5 日涨 6.85%，短期动能强劲，技术面偏上行。"
+        "rationale": "RSI 14 为 80.5，处于超买区；MACD 金叉，柱状线 2968.72 远高于信号线，动量强劲。近 5 日涨幅 19.53%，价格 77310.16 远高于 SMA20（66742）、SMA50（65145）和 SMA200（69002），多头排列稳固。短期虽超买，但技术面呈强上行格局。"
       },
       {
-        "symbol": "CL=F",
-        "display_name": "WTI 原油期货 (CL=F)",
+        "symbol": "GC=F",
+        "display_name": "黄金期货",
         "stance": "偏上行",
-        "rationale": "价格 87.06 高于 SMA20（82.19）、SMA50（79.09）及 SMA200（77.47），形成多头排列；RSI 59.1 处于正常偏强区间，MACD 金叉（MACD 1.50，信号 0.83），5 日涨 5.66%，趋势 bullish，偏上行。"
+        "rationale": "RSI 14 为 75.6，超买；MACD 金叉，柱状线 109.28 高于信号线 71.22，动能增强。单日涨 3.64%，5 日涨 6.85%，价格 4680.6 站上所有均线，SMA20/50/200 逐级抬高，多头排列延续。短期超买但趋势显著偏上。"
       },
       {
         "symbol": "USDCNY=X",
-        "display_name": "美元/人民币 (USDCNY=X)",
+        "display_name": "美元/人民币",
         "stance": "偏下行",
-        "rationale": "价格 6.72 低于 SMA20（6.75）、SMA50（6.77）及 SMA200（6.88），空头排列；RSI 14 仅 19.9，处于超卖区，MACD 死叉（MACD -0.0117，信号 -0.0097），距 52 周低仅 0.13%，趋势 bearish，偏下行。"
+        "rationale": "RSI 14 仅 17.1，深度超卖；价格 6.71 低于 SMA20（6.75）、SMA50（6.77）和 SMA200（6.88），空头排列明确。MACD 死叉，柱状线 -0.0124 持续走弱，且接近 52 周低点。技术面显示持续下行压力。"
       },
       {
-        "symbol": "META",
-        "display_name": "Meta (META)",
+        "symbol": "BABA",
+        "display_name": "阿里巴巴 (BABA)",
         "stance": "偏下行",
-        "rationale": "价格 549.9 低于 SMA20（576.48）、SMA50（592.99）及 SMA200（624.13），空头排列；RSI 38.7 偏弱，MACD 死叉（MACD -14.11，信号 -9.89），趋势 bearish，距 52 周高 -30.46%，5 日跌 6.77%，技术面偏下行。"
+        "rationale": "单日跌 8.57%，价格 119.34 跌破 SMA20（124.34），MACD 死叉且柱状线 2.74 低于信号线 3.38，短期动能转弱。RSI 14 为 46，中性偏弱，距 52 周高点回落 38%，整体呈下行反弹受阻格局。"
       },
       {
-        "symbol": "QQQ",
-        "display_name": "Nasdaq 100 ETF (QQQ)",
+        "symbol": "0700.HK",
+        "display_name": "腾讯控股 (0700.HK)",
         "stance": "中性",
-        "rationale": "价格 713.44 略高于 SMA20（709.19）但紧贴 SMA50（713.44），RSI 14 恰好 50.1，处于中性；MACD 刚死叉（MACD 3.36，信号 3.38），趋势 neutral，无明确方向信号，技术面中性。"
+        "rationale": "RSI 14 为 49.2，处于中性区间；价格 457 在 SMA50（454.66）附近，但低于 SMA20（463.55）和 SMA200（526.64），趋势中性。MACD 死叉但柱状线 -2.86 与信号线 -0.30 差距收窄，方向不明，短期料维持震荡。"
       }
     ],
-    "risk_caveat": "本报告仅基于公开行情数据计算的技术指标进行客观描述，不构成任何投资建议。过去走势不代表未来表现，技术指标存在滞后与失效风险，所有内容仅供技术指标解读参考。",
+    "risk_caveat": "本报告基于公开行情数据计算的技术指标，过去走势不代表未来表现。所引用数值仅反映技术面状态，不构成投资建议，仅供技术指标解读参考。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -378,18 +378,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 76220.46,
-        "pct1Day": -1.119506800516518,
-        "pct5Day": 17.84109805727196,
-        "pct52WeekHigh": -39.60251531580475,
-        "pct52WeekLow": 31.988586363669896,
-        "sma20": 66687.796875,
-        "sma50": 65123.9834375,
-        "sma200": 68996.84599609375,
-        "rsi14": 76.37137444006271,
-        "macd": 2881.7927700474975,
-        "macdSignal": 1328.806857029866,
-        "macdHistogram": 1552.9859130176314,
+        "currentPrice": 77310.16,
+        "pct1Day": 0.2941565838225012,
+        "pct5Day": 19.52583525976338,
+        "pct52WeekHigh": -38.739031428927554,
+        "pct52WeekLow": 33.87558576724855,
+        "sma20": 66742.281640625,
+        "sma50": 65145.77734375,
+        "sma200": 69002.29447265626,
+        "rsi14": 80.45586838799326,
+        "macd": 2968.7200314435177,
+        "macdSignal": 1346.1923093090702,
+        "macdHistogram": 1622.5277221344475,
         "trend": "neutral",
         "rsiState": "overbought",
         "signals": [
@@ -405,18 +405,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2407.17,
-        "pct1Day": -0.7045977973425842,
-        "pct5Day": 25.60504832054398,
-        "pct52WeekHigh": -51.40694906245452,
-        "pct52WeekLow": 59.784991188549775,
-        "sma20": 2015.8975891113282,
-        "sma50": 1919.4266430664063,
-        "sma200": 2006.7158612060548,
-        "rsi14": 76.37071951951361,
-        "macd": 133.826971833161,
-        "macdSignal": 73.05957100410073,
-        "macdHistogram": 60.767400829060264,
+        "currentPrice": 2445.85,
+        "pct1Day": 0.8909464131613571,
+        "pct5Day": 27.623353329761695,
+        "pct52WeekHigh": -50.62612377372781,
+        "pct52WeekLow": 62.35252213118079,
+        "sma20": 2017.8315979003905,
+        "sma50": 1920.2002465820312,
+        "sma200": 2006.909262084961,
+        "rsi14": 78.76892717035895,
+        "macd": 136.9125699011811,
+        "macdSignal": 73.67669061770475,
+        "macdHistogram": 63.235879283476336,
         "trend": "neutral",
         "rsiState": "overbought",
         "signals": [
@@ -437,18 +437,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 92.84,
-        "pct1Day": -1.1420510162110686,
-        "pct5Day": 20.52258683438461,
-        "pct52WeekHigh": -63.33476692656962,
-        "pct52WeekLow": 53.67115828725185,
-        "sma20": 79.07286071777344,
-        "sma50": 77.34181564331055,
-        "sma200": 81.13538661956787,
-        "rsi14": 79.39257409288436,
-        "macd": 4.187552439300248,
-        "macdSignal": 2.061650643529322,
-        "macdHistogram": 2.125901795770926,
+        "currentPrice": 95.16,
+        "pct1Day": 1.3283328877353946,
+        "pct5Day": 23.534353330030577,
+        "pct52WeekHigh": -62.41853102900006,
+        "pct52WeekLow": 57.51128201868683,
+        "sma20": 79.18886108398438,
+        "sma50": 77.38821578979493,
+        "sma200": 81.14698665618897,
+        "rsi14": 84.11927370501597,
+        "macd": 4.3726242486396245,
+        "macdSignal": 2.0986650053971974,
+        "macdHistogram": 2.273959243242427,
         "trend": "neutral",
         "rsiState": "overbought",
         "signals": [
@@ -612,18 +612,18 @@
         "group": "commodity-fx",
         "currency": "CNY",
         "exchangeName": "CCY",
-        "currentPrice": 6.7205,
-        "pct1Day": -0.02974856760880215,
-        "pct5Day": -0.33072662645500805,
-        "pct52WeekHigh": -6.54160119039341,
-        "pct52WeekLow": 0.12962245597306463,
-        "sma20": 6.746819949150085,
-        "sma50": 6.766481962203979,
-        "sma200": 6.877954485416413,
-        "rsi14": 19.90299023275776,
-        "macd": -0.011661155507942667,
-        "macdSignal": -0.009749847997736495,
-        "macdHistogram": -0.0019113075102061717,
+        "currentPrice": 6.7118,
+        "pct1Day": -0.159164710375236,
+        "pct5Day": -0.459753139117735,
+        "pct52WeekHigh": -6.662587436899413,
+        "pct52WeekLow": 0,
+        "sma20": 6.746384954452514,
+        "sma50": 6.766307964324951,
+        "sma200": 6.877910985946655,
+        "rsi14": 17.110024194740205,
+        "macd": -0.012355164142244135,
+        "macdSignal": -0.009888649724596788,
+        "macdHistogram": -0.0024665144176473468,
         "trend": "bearish",
         "rsiState": "oversold",
         "signals": [
@@ -743,13 +743,13 @@
       "timestamp": "2026-08-23T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2580145123193.489,
-      "total24hVolumeUsd": 90868493520.32417,
-      "marketCapChangePct24h": -4.925183783594355,
-      "btcDominance": 59.14651170276113,
-      "ethDominance": 11.23395265951956,
-      "activeCryptocurrencies": 18626
+      "totalMarketCapUsd": 2617548163902.41,
+      "total24hVolumeUsd": 86558197561.56895,
+      "marketCapChangePct24h": -3.0266908204677025,
+      "btcDominance": 59.13566005918898,
+      "ethDominance": 11.244003150303657,
+      "activeCryptocurrencies": 18639
     },
-    "generated_at": "2026-08-23T08:23:27.232Z"
+    "generated_at": "2026-08-23T18:21:37.487Z"
   }
 }
