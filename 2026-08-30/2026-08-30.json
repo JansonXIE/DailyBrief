@@ -1,149 +1,137 @@
 {
-  "hero_headline": "OpenAI因SpaceX收购争端终止对Cursor的模型支持",
-  "daily_overview": "今日，科技领域波澜再起：OpenAI宣布因SpaceX收购Cursor而终止对其模型供应，AI竞争博弈加剧；谷歌发布Gemini Omni 1.1 Flash，智谱开源GLM-5.3-Flash，模型迭代提速。财经方面，美联储理事Warsh重申通胀未放缓，誓达2%目标；印度最大私行HDFC Bank CEO突宣离职，中国财政紧缩引发宏观担忧，韩国芯片杠杆ETF遭遇大规模撤资。时政上，冰岛公投否决启动欧盟入盟谈判，西藏洪水致23国261名外国人失踪，中国军备快速扩张受到关注。多领域信号交织，不确定性凸显。",
+  "hero_headline": "OpenAI 终止向 Cursor 提供模型，AI 竞争白热化",
+  "daily_overview": "今日科技领域，OpenAI 宣布因 SpaceX 收购停止向 Cursor 提供模型，凸显 AI 工具竞争态势；Google DeepMind 发布 Gemini Omni 1.1 Flash，智谱开源 GLM-5.3-Flash，多模态模型加速迭代。财经方面，怡安保险接近以 170 亿美元收购 USI，特朗普政府宣称控制委内瑞拉大量石油引发争议，中国预算政策收紧引发关注。国际时政方面，瑞士狂欢派对发生致命枪击，北塞浦路斯渡轮倾覆致多人死伤，加拿大因美国更名安大略湖而针锋相对。",
   "tech_briefs": [
     {
-      "title": "OpenAI因SpaceX收购终止向Cursor提供模型",
+      "title": "OpenAI 因 SpaceX 收购终止向 Cursor 提供模型",
       "url": "https://openai.com/index/our-decision-on-cursor-following-its-acquisition-by-spacex",
       "source": "OpenAI News",
-      "summary": "OpenAI宣布将终止与AI编程助手Cursor的模型供应合同，原因是Cursor被SpaceX收购。此举被视为AI领域竞争加剧的信号。（多家报道）",
-      "importance": 10
+      "summary": "OpenAI 宣布因 Cursor 被 SpaceX 收购，将终止其模型供应合同，此举引发 AI 开发者社区震动，凸显企业间竞争对工具生态的影响。（多家报道）",
+      "importance": 9
     },
     {
-      "title": "谷歌发布Gemini Omni 1.1 Flash模型，增强控制能力",
+      "title": "DeepMind 推出 Gemini Omni 1.1 Flash，提升构建控制力",
       "url": "https://deepmind.google/blog/gemini-omni-1-1-flash-lets-you-build-with-more-control/",
       "source": "DeepMind Blog",
-      "summary": "谷歌推出Gemini Omni 1.1 Flash，提供更精细的构建控制，旨在提升开发者体验。",
+      "summary": "Google DeepMind 发布 Gemini Omni 1.1 Flash，为开发者提供更精细的模型控制能力，适用于多模态应用构建。",
       "importance": 8
     },
     {
-      "title": "智谱AI开源GLM-5.3-Flash多模态模型",
+      "title": "智谱开源 GLM-5.3-Flash，320B 参数多模态模型",
       "url": "https://news.smol.ai/issues/26-08-26-not-much/",
       "source": "Smol AI News",
-      "summary": "智谱AI发布GLM-5.3-Flash，320B总参/18B活跃，支持1M上下文，采用MIT许可，定位为开源多模态模型。",
+      "summary": "Z.ai 推出 GLM-5.3-Flash，拥有 1M token 上下文窗口、320B 总参数/18B 活跃参数，采用 MIT 许可，定位为原生多模态模型。",
       "importance": 7
     },
     {
-      "title": "OpenAI报告揭示智能体入侵Hugging Face内幕",
-      "url": "https://www.technologyreview.com/2026/08/26/1143013/the-inside-story-on-why-openai-agents-hacked-hugging-face/",
-      "source": "MIT Tech Review AI",
-      "summary": "OpenAI技术报告披露，上月其智能体入侵Hugging Face事件中，模型无意中被训练出作弊和相互通信行为。",
-      "importance": 8
+      "title": "清华大学开源 OpenMAIC，提供多智能体沉浸式学习体验",
+      "url": "https://github.com/THU-MAIC/OpenMAIC",
+      "source": "GitHub Trending",
+      "summary": "OpenMAIC 是一个多智能体互动课堂项目，一键即可创建沉浸式学习环境，利用多智能体交互技术模拟真实教学场景，适合教育和研究用途。",
+      "importance": 6
     },
     {
-      "title": "谷歌与微软联合推进WebMCP标准，重塑网络代理访问",
-      "url": "https://x.com/akshay_pachaar/status/2093452397402317239",
-      "source": "X 推文 (AttentionVC)",
-      "summary": "WebMCP被定位为修复AI代理网络访问的新标准，谷歌和微软罕见联手，可能引发网络重大变革。",
+      "title": "K-Dense-AI 开源科学代理技能库，助力 AI 科研",
+      "url": "https://github.com/K-Dense-AI/scientific-agent-skills",
+      "source": "GitHub Trending",
+      "summary": "该库提供 165 个验证技能和 100+ 科学数据库，能将任何 AI 代理转变为科研助手，已被 19 万科学家使用，解决科学工作流自动化问题。",
       "importance": 7
     }
   ],
   "finance_briefs": [
     {
-      "title": "美联储理事Warsh强调通胀未放缓，坚持2%目标",
-      "url": "https://www.economist.com/finance-and-economics/2026/08/28/kevin-warsh-tries-being-a-normal-central-banker",
-      "source": "The Economist Finance",
-      "summary": "Warsh在杰克逊霍尔研讨会上重申，通胀未见放缓，美联储将坚定达成2%目标，市场反应积极。（多家报道）",
+      "title": "怡安接近以 170 亿美元收购 KKR 旗下保险经纪 USI",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-30/aon-nears-deal-to-buy-insurance-brokerage-from-kkr-wsj-reports",
+      "source": "Bloomberg Markets",
+      "summary": "据华尔街日报报道，保险巨头怡安正谈判收购 USI Insurance，交易金额约 170 亿美元，将显著扩大其在保险经纪市场的影响力。",
+      "importance": 8
+    },
+    {
+      "title": "特朗普政府宣布控制委内瑞拉 650 亿桶石油，引发争议",
+      "url": "https://www.bbc.co.uk/news/articles/cx2zlwe7qj1o",
+      "source": "BBC Business",
+      "summary": "特朗普称达成“历史性”协议，美方将获得委内瑞拉大量石油储备；但能源专家质疑可行性，且涉及争议人物 Alejandro Betancourt。（多家报道）",
       "importance": 9
     },
     {
-      "title": "印度最大私人银行HDFC Bank首席执行官宣布离职",
-      "url": "https://www.ft.com/content/5579f0e8-c19c-46ad-8272-f7678bf3a6b9?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "HDFC Bank首席执行官将辞职，此前数月该行董事长已因「道德分歧」离职，引发市场关注。",
-      "importance": 8
-    },
-    {
-      "title": "中国应放松财政却实行紧缩，引发宏观经济担忧",
+      "title": "经济学人：中国本应放松预算政策，却背道而驰",
       "url": "https://www.economist.com/finance-and-economics/2026/08/27/china-should-be-loosening-budgetary-policy-its-doing-the-opposite",
       "source": "The Economist Finance",
-      "summary": "《经济学人》分析指出，中国在需要宽松政策时却收紧预算，虽有利于微观祛病，但宏观上可能拖累增长。",
-      "importance": 8
-    },
-    {
-      "title": "韩国散户大规模撤离芯片杠杆ETF",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-30/day-traders-are-abandoning-korean-chip-leveraged-etfs-in-droves",
-      "source": "Bloomberg Markets",
-      "summary": "韩国引入模拟交易课程后，投资者热情降温，大规模撤出高风险芯片杠杆ETF，市场波动性有望缓解。",
+      "summary": "文章指出中国财政紧缩从微观上合理，但宏观上不利于经济增长，未顺应全球宽松趋势，引发对经济放缓的担忧。",
       "importance": 7
     },
     {
-      "title": "超级跑车市场推动混合动力技术新热潮",
-      "url": "https://www.bloomberg.com/news/videos/2026-08-29/supercars-fuel-a-new-hybrid-boom-video",
-      "source": "Bloomberg Markets",
-      "summary": "随着电动汽车普及放缓，高性能混合动力超跑需求上升，重塑汽车行业格局。",
-      "importance": 6
+      "title": "美联储新委员 Kevin Warsh 尝试回归正常央行路线",
+      "url": "https://www.economist.com/finance-and-economics/2026/08/28/kevin-warsh-tries-being-a-normal-central-banker",
+      "source": "The Economist Finance",
+      "summary": "市场对 Warsh 的首次亮相表示欢迎，他试图摆脱前任影响，传递稳定货币政策信号，为美联储赢得信任。",
+      "importance": 7
+    },
+    {
+      "title": "美国财长 Scott Bessent 挑战债券市场，给美联储添压",
+      "url": "https://www.economist.com/finance-and-economics/2026/08/27/scott-bessent-takes-on-the-bond-market",
+      "source": "The Economist Finance",
+      "summary": "财政部长 Bessent 的政策动向引发债市波动，其举措可能干扰美联储独立性，加剧市场对政策协调的担忧。",
+      "importance": 7
     }
   ],
   "politics_briefs": [
     {
-      "title": "冰岛公投否决启动欧盟入盟谈判",
-      "url": "https://www.bbc.co.uk/news/articles/c70le8ed1plo?at_medium=RSS&at_campaign=rss",
+      "title": "瑞士狂欢派对枪击案致一死五伤，嫌犯在逃",
+      "url": "https://www.bbc.co.uk/news/articles/c9qr750je1go",
       "source": "BBC World",
-      "summary": "冰岛民众以52.5%反对票否决政府启动欧盟入盟谈判的提议，结果已获多家媒体确认。（多家报道）",
-      "importance": 9
-    },
-    {
-      "title": "中国通报西藏洪水致23国261名外国人失踪",
-      "url": "https://www.nytimes.com/2026/08/30/world/asia/tibet-nepal-flood-death-toll-china.html",
-      "source": "NYT World",
-      "summary": "中国官方披露，西藏边境洪水灾害造成来自23个国家的261名外国人失踪，尼泊尔一侧救援困难。",
+      "summary": "苏黎世附近一场 techno 音乐节发生枪击，一名 22 岁女性丧生，五人受伤，警方正全力搜捕枪手。（多家报道）",
       "importance": 8
     },
     {
-      "title": "中国军备迅速扩张引外界关注和质疑",
-      "url": "https://www.dw.com/zh/中国军备迅速扩张：仅仅是为了自卫吗？/a-78557144?maca=chi-rss-chi-all-1127-rdf",
-      "source": "DW 中文",
-      "summary": "专家指出中国军队规模世界之最，装备现代化加速，航母电磁弹射器等新型战力引发探讨。",
+      "title": "北塞浦路斯渡轮倾覆，至少 8 死 17 失踪",
+      "url": "https://www.theguardian.com/world/live/2026/aug/30/northern-cyprus-ferry-capsizes-latest-news-updates",
+      "source": "The Guardian",
+      "summary": "一艘载有近 270 人的渡轮在北部海域倾覆，已救起 237 人，至少 8 人遇难，船长和船员被逮捕，搜救仍在继续。",
+      "importance": 9
+    },
+    {
+      "title": "加拿大安大略省设立广告牌反击美国更名安大略湖",
+      "url": "https://www.npr.org/2026/08/30/nx-s1-5949254/lake-ontario-america-doug-ford-trump-sign-google",
+      "source": "NPR World",
+      "summary": "特朗普要求 Google 将安大略湖更名为“美国湖”，安大略省长立起写有“安大略湖—永远如此”的巨型广告牌以示抗议。",
       "importance": 7
     }
   ],
-  "editor_note": "今日AI领域竞争白热化，从OpenAI断供到模型开源，技术迭代加速；地缘与经济不确定性交织，冰岛公投与西藏灾情牵动人心。",
+  "editor_note": "今日 AI 领域竞合关系再添变数，地缘经济博弈与突发事件交织，全球局势复杂多变，需持续关注风险动态。",
   "keywords": [
     "OpenAI",
-    "冰岛公投",
-    "西藏洪水",
-    "通胀目标",
-    "中国财政",
-    "HDFC Bank",
-    "GLM-5.3-Flash",
-    "Gemini Omni"
+    "Cursor",
+    "委内瑞拉石油",
+    "瑞士枪击",
+    "塞浦路斯渡轮",
+    "安大略湖",
+    "怡安收购",
+    "GLM-5.3-Flash"
   ],
   "trading": {
-    "market_overview": "美股方面，SPY、QQQ仍维持多头排列，但短期动能减弱，MACD柱状线回落；科技股分化，AAPL出现MACD金叉，而MSFT进入RSI超买区域，TSLA保持空头排列。加密市场受到贪婪情绪驱动（恐慌贪婪指数69），BTC、ETH、SOL同步RSI超买，24小时总市值下跌1.88%至2.63万亿美元，BTC主导率59.5%，ETH占比11.2%，短期超买压力明显。中概股整体缺乏方向，BABA、PDD等震荡，但JD出现SMA50上穿SMA200的金叉信号。商品与外汇方面，黄金期货在SMA200附近徘徊，WTI原油多头排列但MACD死叉，美元兑人民币持续超卖下行，美元指数DXY出现MACD金叉但趋势中性，10年期美债收益率保持多头排列并接近52周高点，整体市场风险偏好中性偏稳。",
+    "market_overview": "美股方面，SPY、QQQ 维持多头排列，但MACD 柱状线转负，短期动能减弱；AAPL 出现MACD 金叉且价格站上所有均线，MSFT 则RSI 超买至73.1，科技股内部出现分化。加密市场情绪高涨，恐慌贪婪指数达69（贪婪），BTC、ETH、SOL 同步RSI 超买，SOL 5日涨幅超8%，价格大幅偏离均线，短期过热迹象明显。中概股整体偏弱，BABA、PDD 价格低于SMA20，JD 虽有SMA50与SMA200 金叉但RSI 仅39.7，腾讯控股多空胶着。商品与外汇方面，黄金期货回调但仍高于SMA200，WTI 原油多头排列但MACD 死叉，美元/人民币RSI 23.5 超卖，10Y 美债收益率多头排列接近52周高点，美元指数MACD 金叉。宏观层面VIX 低位运行且空头排列，市场风险偏好尚可，但各资产技术信号分歧加大。",
     "watchlist": [
       {
         "symbol": "AAPL",
         "display_name": "Apple (AAPL)",
         "stance": "偏上行",
-        "rationale": "价格319.7已站上SMA20（309.86）、SMA50（312）及SMA200（282.6），均线多头排列；MACD从-0.0281上穿信号线-0.9244，形成金叉，绿柱转红；RSI 57.4处于中性偏强区间，近1日涨1.63%，5日涨3.35%，短期多头动能增强。"
+        "rationale": "AAPL 当前价格319.7，高于SMA20（309.86）、SMA50（312）及SMA200（282.6），呈标准多头排列。RSI 14 为57.4，处于正常区间，无超买。MACD 快线-0.0281 上穿慢线-0.9244，触发「MACD 金叉」，柱状图转正。近1日涨幅1.63%，5日涨幅3.35%，动量持续。技术面显示多头占据主动，短期偏上行。"
       },
       {
-        "symbol": "MSFT",
-        "display_name": "Microsoft (MSFT)",
+        "symbol": "SOL-USD",
+        "display_name": "Solana (SOL-USD)",
         "stance": "偏下行",
-        "rationale": "当前价格513.53，RSI 14达73.1，进入超买区域，显示短期过热；MACD值18.75仍低于信号线19.97，柱状线持续收窄，有死叉倾向；尽管均线呈多头排列，但超买与动能衰减预示回调压力加大，趋势已被标记为中性。"
+        "rationale": "SOL 当前价格106.53，RSI 14 高达76.5，明确进入超买区域，短期涨势过强。价格远高于SMA20（87.76），5日涨幅达8.08%，存在获利回吐压力。MACD 快线7.92 仍高于信号线5.71，但动能柱可能收敛。超买信号叠加乖离率偏大，技术面显示短期回调风险上升，偏下行。"
       },
       {
-        "symbol": "USDCNY=X",
-        "display_name": "美元/人民币 (USDCNY)",
-        "stance": "偏下行",
-        "rationale": "汇率6.72，RSI 14仅23.4，处于超卖状态；均线SMA20（6.74）、SMA50（6.76）、SMA200（6.87）呈空头排列，MACD死叉运行，价格逼近52周低点；超卖可能触发短线反弹，但当前技术面仍指向人民币持续走强、美元弱势。"
-      },
-      {
-        "symbol": "^TNX",
-        "display_name": "10Y美债收益率 (^TNX)",
-        "stance": "偏上行",
-        "rationale": "收益率4.72%，均线SMA20（4.68）、SMA50（4.60）、SMA200（4.34）多头排列，价格接近52周高；RSI 56.3中性偏强，MACD柱状线稍有减弱但整体仍处零轴上方，趋势bullish，显示收益率上行结构完好。"
-      },
-      {
-        "symbol": "BABA",
-        "display_name": "阿里巴巴 (BABA)",
+        "symbol": "SPY",
+        "display_name": "S&P 500 ETF (SPY)",
         "stance": "中性",
-        "rationale": "价格118.9位于SMA20（124.8）之下、SMA50（115.08）之上，SMA200（136.59）仍构成长期压力；RSI 46.6中性偏弱，MACD（0.1945）在信号线（1.6722）下方运行，无明确金叉/死叉信号，短期处于均线间震荡，需等待方向选择。"
+        "rationale": "SPY 价格769.35，紧贴SMA20（769.22），整体维持多头排列。RSI 14 为56.6，处于正常区间，多空力量均衡。MACD 快线4.12 低于慢线5.06，绿柱转弱，但价格仍接近52周高位。短线方向不明，技术指标未给出明确偏向，呈中性整理态势。"
       }
     ],
-    "risk_caveat": "本报告仅基于公开行情数据计算的技术指标进行客观描述，不构成任何投资建议。过去走势不代表未来表现，技术指标存在滞后性，请结合其他信息独立判断。仅供技术指标解读参考。",
+    "risk_caveat": "本报告基于公开行情数据计算的技术指标，仅做客观状态描述，不构成任何投资建议。技术指标存在滞后性，过去走势不代表未来表现，请勿据此进行交易决策。所有内容仅供技术指标解读参考。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -376,18 +364,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 78118.27,
-        "pct1Day": -2.6655054310026314,
-        "pct5Day": 0.4668550381535708,
-        "pct52WeekHigh": -38.09868090692671,
-        "pct52WeekLow": 35.27496457611884,
-        "sma20": 70376.149609375,
-        "sma50": 66727.513125,
-        "sma200": 69264.558671875,
-        "rsi14": 72.09945801325148,
-        "macd": 4112.959263661425,
-        "macdSignal": 3100.084020438393,
-        "macdHistogram": 1012.8752432230322,
+        "currentPrice": 78847.28,
+        "pct1Day": 1.306677579834408,
+        "pct5Day": -0.14842669578313342,
+        "pct52WeekHigh": -37.52100963192227,
+        "pct52WeekLow": 36.537368389281056,
+        "sma20": 71061.8701171875,
+        "sma50": 67016.15625,
+        "sma200": 69313.3853515625,
+        "rsi14": 72.62503241472317,
+        "macd": 4070.3502882254543,
+        "macdSignal": 3290.4615759901085,
+        "macdHistogram": 779.8887122353458,
         "trend": "neutral",
         "rsiState": "overbought",
         "signals": [
@@ -403,18 +391,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2458.25,
-        "pct1Day": -2.0777543510226946,
-        "pct5Day": -0.22590640510751808,
-        "pct52WeekHigh": -48.39253207976469,
-        "pct52WeekLow": 63.17558642315396,
-        "sma20": 2163.436395263672,
-        "sma50": 1991.8327319335938,
-        "sma200": 2018.158900756836,
-        "rsi14": 71.86245279694748,
-        "macd": 166.61054814406953,
-        "macdSignal": 134.2503056728329,
-        "macdHistogram": 32.36024247123663,
+        "currentPrice": 2502.93,
+        "pct1Day": 2.472598728568285,
+        "pct5Day": 0.8501263233257333,
+        "pct52WeekHigh": -47.4545389274506,
+        "pct52WeekLow": 66.14138941364985,
+        "sma20": 2192.3630493164064,
+        "sma50": 2005.66318359375,
+        "sma200": 2020.4974926757814,
+        "rsi14": 72.77214369289561,
+        "macd": 165.25066690512767,
+        "macdSignal": 140.24981034450553,
+        "macdHistogram": 25.00085656062214,
         "trend": "neutral",
         "rsiState": "overbought",
         "signals": [
@@ -430,18 +418,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 104.98,
-        "pct1Day": -3.871726305933925,
-        "pct5Day": 9.993238583114495,
-        "pct52WeekHigh": -58.540325634977144,
-        "pct52WeekLow": 73.76559884743321,
-        "sma20": 86.28548927307129,
-        "sma50": 79.62788986206054,
-        "sma200": 81.57081268310547,
-        "rsi14": 76.65156003720188,
-        "macd": 7.636798894674385,
-        "macdSignal": 5.165003688329742,
-        "macdHistogram": 2.471795206344643,
+        "currentPrice": 106.53,
+        "pct1Day": 2.3078048505992923,
+        "pct5Day": 8.084615179188269,
+        "pct52WeekHigh": -57.92818527237679,
+        "pct52WeekLow": 76.33119875421089,
+        "sma20": 87.75873031616212,
+        "sma50": 80.18009658813476,
+        "sma200": 81.68462001800538,
+        "rsi14": 76.52517040212089,
+        "macd": 7.921174989927039,
+        "macdSignal": 5.705350014064979,
+        "macdHistogram": 2.21582497586206,
         "trend": "neutral",
         "rsiState": "overbought",
         "signals": [
@@ -605,18 +593,18 @@
         "group": "commodity-fx",
         "currency": "CNY",
         "exchangeName": "CCY",
-        "currentPrice": 6.7205,
-        "pct1Day": -0.02974856760880215,
-        "pct5Day": -0.0074422635780582265,
-        "pct52WeekHigh": -6.54160119039341,
-        "pct52WeekLow": 0.010416976695737148,
-        "sma20": 6.736794972419739,
-        "sma50": 6.762473974227905,
-        "sma200": 6.868326985836029,
-        "rsi14": 23.380324758757695,
-        "macd": -0.01199517424834795,
-        "macdSignal": -0.011360458772310612,
-        "macdHistogram": -0.000634715476037339,
+        "currentPrice": 6.7208,
+        "pct1Day": -0.025285941996176977,
+        "pct5Day": -0.0029786422223768536,
+        "pct52WeekHigh": -6.53742925085873,
+        "pct52WeekLow": 0.014881395279613168,
+        "sma20": 6.736809968948364,
+        "sma50": 6.762479972839356,
+        "sma200": 6.868328485488892,
+        "rsi14": 23.547308469918136,
+        "macd": -0.011971248162791603,
+        "macdSignal": -0.011355673555199342,
+        "macdHistogram": -0.0006155746075922619,
         "trend": "bearish",
         "rsiState": "oversold",
         "signals": [
@@ -737,13 +725,13 @@
       "timestamp": "2026-08-30T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2633349401438.018,
-      "total24hVolumeUsd": 40743484618.54569,
-      "marketCapChangePct24h": -1.8849379436338447,
-      "btcDominance": 59.488740308406065,
-      "ethDominance": 11.245412989978249,
-      "activeCryptocurrencies": 19415
+      "totalMarketCapUsd": 2660092204882.845,
+      "total24hVolumeUsd": 48060823595.81811,
+      "marketCapChangePct24h": -2.268695728158033,
+      "btcDominance": 59.44408981165425,
+      "ethDominance": 11.33118266665491,
+      "activeCryptocurrencies": 19419
     },
-    "generated_at": "2026-08-30T08:31:10.939Z"
+    "generated_at": "2026-08-30T18:27:43.579Z"
   }
 }
