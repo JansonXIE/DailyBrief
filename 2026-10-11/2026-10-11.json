@@ -1,149 +1,148 @@
 {
-  "hero_headline": "特朗普进口俄柴油遭乌方谴责 印度选举抗议持续发酵",
-  "daily_overview": "科技领域，OpenAI 的 Daybreak 和 GPT-6.1 加速企业自动化，Sophos 威胁调查时间削减 96%，Asana 测试成本降 76 倍，Oracle 将数天工作压缩至分钟级。财经方面，特朗普宣布购买俄罗斯柴油压制油价，泽连斯基怒斥为“资助战争”；印度卢比承压，央行启动 2013 年以来最强干预；韩国 AI 概念股退潮，4.3 万亿美元市值失去吸引力。时政上，沙特利雅得机场遭袭致 12 死 300 余伤；新德里选举修订案抗议升级，数千人被捕后领袖获释；巴拿马强震触发紧急状态，特朗普声称“是时候让乌克兰换总统”。",
+  "hero_headline": "利雅得机场再遭胡塞袭击，特朗普宣布俄柴油交易并施压乌克兰",
+  "daily_overview": "今日全球焦点集中于中东与乌克兰地缘震荡：胡塞武装连续两日袭击沙特利雅得国际机场，造成十余人死亡，凸显沙特安全脆弱性；特朗普突然宣布从俄进口柴油的交易，并公开要求乌克兰更换总统，泽连斯基回应称「停火应双向」，拒绝单方面停止攻击俄炼油设施。科技领域，OpenAI 发布 Daybreak 模型，帮助 Sophos 将网络威胁调查时间缩短 96%，Asana 则借助 GPT-6.1 Sol 将浏览器测试成本降低 76 倍，Agent 落地加速；同时 Google DeepMind 推出 EmbeddingGemma 2 多模态嵌入模型及 SynthID Bio 蛋白质水印技术。财经方面，大众 CEO 呼吁法德联手应对中国车企竞争，私募股权巨头称当前为「最佳」交易窗口，英国百年企业 Boots 易主加拿大富豪家族，全球化在民粹阻力下仍持续扩张。时政上，波兰逮捕涉嫌谋杀总理图斯克的嫌疑人，教皇良十四世因肺部结节即将手术，世卫组织对俄实验室人员死因表态不明。",
   "tech_briefs": [
     {
-      "title": "Sophos 借助 OpenAI Daybreak 将威胁调查缩短 96%",
+      "title": "Sophos 应用 OpenAI Daybreak 将威胁调查时间缩短 96%",
       "url": "https://openai.com/index/sophos",
       "source": "OpenAI News",
-      "summary": "Sophos 采用 OpenAI Daybreak 后，网络威胁调查时间锐减 96%，同时实现 52% 的托管检测与响应案例自动化，并保留人工监督。",
+      "summary": "Sophos 借助 OpenAI 的 Daybreak 模型，将网络威胁调查时间减少 96%，并实现 52% 的托管检测与响应工单自动化，同时保留人工监督。该案例展示了前沿模型在安全运营中的效率提升。",
       "importance": 8
     },
     {
-      "title": "Asana 用 GPT-6.1 Sol 使浏览器测试成本降 76 倍",
+      "title": "Asana 用 GPT-6.1 Sol 将浏览器测试成本降低 76 倍",
       "url": "https://openai.com/index/asana-browser-agent",
       "source": "OpenAI News",
-      "summary": "Asana 利用 GPT-6.1 Sol 将其浏览器代理测试成本降低 76 倍、速度提升 5 倍，可为客户提供更强大的 AI 模型。",
+      "summary": "Asana 采用 GPT-6 Astra 驱动的 Codex，使其浏览器代理在测试中成本变为原来的 1/76，速度提升 5 倍，从而能为客户提供功能更强的模型服务。",
       "importance": 8
     },
     {
-      "title": "甲骨文借 ChatGPT 与 Codex 将任务从数天缩至数分钟",
-      "url": "https://openai.com/index/oracle",
-      "source": "OpenAI News",
-      "summary": "甲骨文在招聘、工程和运营中部署 ChatGPT Work 与 Codex，把原本需数天的专业工作流程压缩到数分钟内完成。",
+      "title": "Google DeepMind 发布 EmbeddingGemma 2 轻量多模态嵌入模型",
+      "url": "https://deepmind.google/blog/embeddinggemma-2-an-open-lightweight-multimodal-embedding-model/",
+      "source": "DeepMind Blog",
+      "summary": "EmbeddingGemma 2 是一个开放的轻量级多模态嵌入模型，旨在为图像与文本联合检索等任务提供高效、低成本的解决方案，延续 Gemma 开放模型路线。",
       "importance": 7
     },
     {
-      "title": "MIT 评论：过度信赖 AI 说“不”的能力",
-      "url": "https://www.technologyreview.com/2026/10/09/1145728/we-are-putting-too-much-faith-in-ai-to-say-no/",
-      "source": "MIT Tech Review AI",
-      "summary": "MIT 科技评论指出，人们过早假定人工智能能像人类一样可靠地拒绝指令，实际模型可能缺乏真正的边界感知，埋下安全与伦理隐患。",
+      "title": "SynthID Bio：为 AI 生成蛋白质添加水印而不影响功能",
+      "url": "https://deepmind.google/blog/introducing-synthid-bio/",
+      "source": "DeepMind Blog",
+      "summary": "DeepMind 推出概念验证工具 SynthID Bio，能够在 AI 设计的蛋白质序列中嵌入可检测水印，同时保持生物功能，有助于生物安全与知识产权保护。（多家报道）",
       "importance": 7
     },
     {
-      "title": "工业机器人 AI 学习工厂任务并通过纠错持续优化",
-      "url": "https://www.latent.space/p/standard-bots",
-      "source": "Latent Space",
-      "summary": "Standard Bots 展示其 AI 堆栈：通过人类演示让预训练模型学习工厂作业，并依据实际运行中的纠错信号不断改进执行可靠性。",
+      "title": "morluto/rea：用 AI 智能体反向工程任意应用",
+      "url": "https://github.com/morluto/rea",
+      "source": "GitHub Trending",
+      "summary": "Rea 项目利用多个智能体协同工作，从应用行为逐层分析到底层二进制代码，实现自动化逆向工程。它采用多智能体架构，能够并行追踪不同层级的逻辑与数据流，对安全研究员和兼容层开发者具有较高价值。",
       "importance": 6
     }
   ],
   "finance_briefs": [
     {
-      "title": "特朗普宣布购买俄柴油 泽连斯基斥为“资助战争”",
-      "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno",
+      "title": "大众 CEO 呼吁法德联手应对中国汽车竞争",
+      "url": "https://www.ft.com/content/258611cc-d4ec-40f7-9d3e-930991725837?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "summary": "大众汽车集团首席执行官奥博穆在巴黎车展前夕表示，法德两国应加强合作，共同应对来自中国车企的挑战，并称「在关键问题上，我们总能找到解决方案」。",
+      "importance": 7
+    },
+    {
+      "title": "特朗普宣布俄柴油进口交易引发争议",
+      "url": "https://www.bbc.co.uk/news/articles/cm1dwgr666wno?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "summary": "美国宣布从俄罗斯进口柴油以压制选举年油价，乌克兰总统泽连斯基强烈谴责此举是“投资战争”，呼吁不应延长冲突。（多家报道）",
+      "summary": "特朗普宣布将从俄罗斯进口柴油，乌克兰总统泽连斯基批评此举是对普京的「礼物」，称其为「对必须结束而非延长的战争的投资」。分析认为此举意在平抑国内油价以应对中期选举。",
       "importance": 9
     },
     {
-      "title": "印度央行采取强干预措施捍卫卢比汇率",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-11/india-s-rupee-defense-raises-question-of-how-far-rbi-will-go",
-      "source": "Bloomberg Markets",
-      "summary": "为稳定卢比，印度央行动用自 2013 年“缩减恐慌”以来最强有力的工具，市场密切关注其干预力度与持续性。",
-      "importance": 8
-    },
-    {
-      "title": "韩国 AI 概念股降温 股市流失全球投资者兴趣",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-11/once-hot-ai-trade-leaves-korean-stocks-struggling-for-buyers",
-      "source": "Bloomberg Markets",
-      "summary": "曾因全球 AI 热潮备受追捧的韩国股市近期面临资金外流，规模达 4.3 万亿美元的市场正迅速失去投资者的青睐。",
-      "importance": 8
-    },
-    {
-      "title": "中国发布汽车零部件再制造国家标准草案",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-11/china-issues-draft-standards-for-remanufactured-automotive-parts",
-      "source": "Bloomberg Markets",
-      "summary": "该草案拟建立全国统一的汽车零部件再制造规范，涉及旧件采购、质量追溯与产品性能等要求，推动循环经济。",
-      "importance": 7
-    },
-    {
-      "title": "Permira 高管：当前估值压低 私募股权可寻“最佳交易”",
-      "url": "https://www.ft.com/content/b42bb760-3eda-430d-adfd-69c359425c1d",
+      "title": "私募股权巨头称当前为「最佳」交易时机",
+      "url": "https://www.ft.com/content/b42bb760-3eda-430d-adfd-69c359425c1d?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "summary": "Permira 负责人 Dipan Patel 表示，当前市场估值较低、竞争减缓，为私募股权创造带来超额回报的良机。",
-      "importance": 7
+      "summary": "Permira 负责人 Dipan Patel 表示，估值回落与竞争减少使私募股权行业有望获得「卓越回报」，当前是部署资本的有利环境。",
+      "importance": 6
+    },
+    {
+      "title": "英国 Boots 易主加拿大富豪家族",
+      "url": "https://www.bbc.co.uk/news/articles/c63djxry8124o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "英国高街零售代表 Boots 被出售给加拿大亿万富翁家族，交易可能影响门店运营、药品供应及消费者服务方式，引发市场关注。",
+      "importance": 5
+    },
+    {
+      "title": "全球化面临民粹反推仍持续扩张",
+      "url": "https://www.bloomberg.com/news/videos/2026-10-11/globalization-defies-a-decade-of-populist-pushback-video",
+      "source": "Bloomberg Markets",
+      "summary": "彭博分析指出，尽管历经十年民粹政策、关税壁垒及去风险化努力，全球贸易与资本流动仍在增长，全球化展现了超预期韧性。",
+      "importance": 5
     }
   ],
   "politics_briefs": [
     {
-      "title": "印度选举名册修订抗议升级 数千人被拘后领袖获释",
-      "url": "https://www.bbc.co.uk/news/articles/c84g179n2393o",
+      "title": "利雅得机场连续遭胡塞武装袭击致重大伤亡",
+      "url": "https://www.bbc.co.uk/news/articles/cr93znyk44e1o?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "summary": "反对大规模选民名册修订的“蟑螂”党在首都发起抗议，警方拘留约 7000 人，领袖获释后警告示威将继续；当局已对市中心实施严格管制。（多家报道）",
+      "summary": "也门胡塞武装两天内第二次攻击利雅得国际机场，周末共造成 13 人死亡，并宣称袭击两座机场和石油设施，沙特安全形象受到冲击。纽约时报指其为不对称冲突的集中体现。",
+      "importance": 10
+    },
+    {
+      "title": "特朗普宣布乌克兰部分能源停火，泽连斯基拒绝单边让步",
+      "url": "https://www.theguardian.com/world/2026/oct/11/zelenskyy-trump-ukraine-russia-energy-ceasefire",
+      "source": "The Guardian",
+      "summary": "特朗普单方面宣布乌克兰能源设施停火，但泽连斯基表示「从未知悉」，并拒绝在俄未停火前停止打击炼油厂，凸显美乌在和谈条件上的分歧。（多家报道）",
       "importance": 9
     },
     {
-      "title": "沙特利雅得机场遭袭致 12 死超 300 伤",
-      "url": "https://www.npr.org/2026/10/10/g-s1-147682/attack-on-riyadh-airport-killed-12-people-and-wounded-over-300-more-saudi-authorities-say",
-      "source": "NPR World",
-      "summary": "沙特当局称首都利雅得国际机场遭袭击，共造成 12 人死亡，包括 4 名沙特公民，另有超过 300 人受伤。",
-      "importance": 9
-    },
-    {
-      "title": "特朗普称“是时候让乌克兰换一位新总统”",
-      "url": "https://www.bbc.co.uk/news/articles/cqe8r5l7n92jo",
+      "title": "波兰逮捕涉嫌谋杀总理图斯克的嫌疑人",
+      "url": "https://www.bbc.co.uk/news/articles/c6n9rvynl5p5o?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
-      "summary": "在泽连斯基抨击俄柴油协议后，特朗普公开表示乌克兰需要更换领导人，美乌关系进一步紧张。",
+      "summary": "波兰警方根据可信情报，拘留了一名计划袭击总理图斯克及国防部长的男子，案件细节尚在调查中，国内反恐级别提高。",
       "importance": 8
     }
   ],
-  "editor_note": "今日地缘与经济张力交织：特朗普对俄能源交易激化美乌分歧，印度选举改革抗议考验稳定，而 AI 正在企业核心流程中创造效率跃升，但信任与安全新挑战也随之浮现。",
+  "editor_note": "今日中东安全形势骤然升温，美对俄能源交易与其对乌克兰新施压策略交织，使地缘风险集中释放。科技侧 AI 代理与模型效率竞速持续，但安全与成本突破后对人机协作边界的讨论同样值得关注。",
   "keywords": [
-    "印度抗议",
-    "特朗普",
-    "俄柴油",
-    "OpenAI Daybreak",
-    "利雅得袭击",
-    "韩国股市",
-    "泽连斯基",
-    "AI降本"
+    "利雅得机场袭击",
+    "胡塞武装",
+    "特朗普俄柴油交易",
+    "乌克兰停火",
+    "AI威胁调查",
+    "大众法德合作",
+    "私募股权"
   ],
   "trading": {
-    "market_overview": "整体技术面呈现明显分化。美股大盘如SPY、QQQ延续多头排列，MACD金叉，RSI处于中性偏强区间，大型科技股中MSFT表现强势，日内涨2.38%而RSI达67.5，但TSLA仍受SMA200（390.60）压制，趋势中性。加密资产总市值2.81万亿美元，24小时下跌1.85%，恐慌贪婪指数61（贪婪），BTC仍守多头排列但5日跌3.03%，RSI中性51.7，ETH与SOL分别跌7.47%和9.58%，RSI均滑落至40.4和43.1，短期动能弱。中概块普遍空头排列，BABA、PDD等虽日内反弹且MACD金叉，但均线空头格局未变，距52周高仍有较大空间。商品外汇方面，黄金期货空头排列，MACD死叉，RSI 43.5；WTI原油多头排列但RSI仅50.1；美元指数DXY接近52周高，RSI 69，人民币汇率RSI 27.6进入超卖区。整体美股与美元偏强，黄金、人民币及部分中概、中小加密偏弱。",
+    "market_overview": "美股方面，SPY与QQQ维持多头排列，SPY出现MACD金叉，VIX指数处于空头趋势，显示整体风险偏好积极，但TSLA受200日均线压制、META出现MACD死叉，个股分化明显。加密市场恐慌贪婪指数61（贪婪），总市值单日收缩2.68%，BTC与ETH距52周高仍有大幅折价，BTC多头排列但MACD柱转负，ETH处于死叉结构，整体技术面中性偏弱。中概股出现超跌反弹，BABA、PDD等单日涨幅显著且MACD金叉，但价格仍低于200日均线，空头排列趋势未逆转。商品外汇方面，黄金期货空头排列，MACD死叉；美元指数DXY接近52周高，多头强劲；美元/人民币RSI超卖至22.5，空头排列明确；WTI原油保持多头排列但MACD转弱，多空交织。",
     "watchlist": [
       {
         "symbol": "MSFT",
-        "display_name": "Microsoft (MSFT)",
+        "display_name": "微软 (MSFT)",
         "stance": "偏上行",
-        "rationale": "价格535.07，日涨幅2.38%，5日涨幅3.39%。均线多头排列：SMA20 510.10、SMA50 500.45、SMA200 434.00均低于现价。RSI 14读数67.5接近超买，MACD柱状线10.6418高于信号线9.1317，动量持续偏强，短期技术面偏向上行。"
+        "rationale": "当前价格535.07，近1日涨2.38%，5日涨3.39%；RSI14达67.5，接近超买；均线呈多头排列（20日510.10 > 50日500.45 > 200日434），MACD柱状为正（10.64 > 9.13），显示上升动能延续。"
       },
       {
-        "symbol": "QQQ",
-        "display_name": "Nasdaq 100 ETF (QQQ)",
+        "symbol": "BABA",
+        "display_name": "阿里巴巴 (BABA)",
         "stance": "偏上行",
-        "rationale": "价格751.27，RSI 60.9，高于SMA20（737.54）、SMA50（724.52）和SMA200（672.18），呈现典型多头排列。MACD柱状线9.582高于信号线8.7318，距52周高仅-1.52%，接近阻力但趋势动能仍支持偏上行格局。"
+        "rationale": "价格111.37，单日大涨5.36%，5日涨5.21%；RSI14为51，中性；MACD金叉（-1.73 > -2.02），短期动能转强。但仍处空头排列（价格低于200日129.93），长期趋势未改。"
+      },
+      {
+        "symbol": "USDCNY=X",
+        "display_name": "美元/人民币 (USDCNY)",
+        "stance": "偏下行",
+        "rationale": "价格6.68，近5日跌0.32%；RSI14仅22.5，进入超卖区域；均线空头排列（20日6.70 > 50日6.72 > 200日6.82），MACD死叉且柱状负值，接近52周低点，抛压明显。"
       },
       {
         "symbol": "GC=F",
         "display_name": "黄金期货 (GC=F)",
         "stance": "偏下行",
-        "rationale": "价格4216.3，日内反弹1.43%，但远低于SMA20（4267.6）、SMA50（4376.97）和SMA200（4548.02），构成典型空头排列。MACD柱状-64.38低于信号线-58.02，死叉持续，RSI 43.5，距52周高-24.52%，技术面偏下行。"
+        "rationale": "价格4216.3，低于20日（4267.6）、50日（4376.97）、200日（4548.02）均线，空头排列。RSI14为43.5，MACD死叉且柱状-64.38，距52周低仅8%，弱势格局延续。"
       },
       {
-        "symbol": "TSLA",
-        "display_name": "Tesla (TSLA)",
+        "symbol": "META",
+        "display_name": "Meta (META)",
         "stance": "中性",
-        "rationale": "价格382.7，高于SMA20（368.66）和SMA50（354.74），但明显受SMA200（390.60）压制，trend中性。RSI 59.7，MACD出现金叉（5.07>4.00），然距52周高-23.28%，长期与短期指标多空交织，方向感不明确。"
-      },
-      {
-        "symbol": "BABA",
-        "display_name": "阿里巴巴 (BABA)",
-        "stance": "偏下行",
-        "rationale": "价格111.37，日涨5.36%反弹至SMA20（109.62）上方，但SMA50（116.28）与SMA200（129.93）仍在上方构成空头排列。MACD金叉（-1.73>-2.02）但柱状为负，RSI 51，说明反弹尚未扭转中期下行结构，故偏下行。"
+        "rationale": "价格718.67，近5日跌1.29%；RSI14为56.8，中性；多头排列但MACD柱状转负（25.03 < 30.81），形成死叉信号。价格围绕20日均线波动，多空均衡，缺乏明确方向。"
       }
     ],
-    "risk_caveat": "本报告基于公开行情数据计算的技术指标，仅描述指标当前状态，不构成投资建议。过去走势不代表未来表现，所有解读仅供技术指标参考。",
+    "risk_caveat": "过去走势不代表未来表现，所有技术指标解读均基于历史数据统计，仅供技术面参考，不构成任何投资建议。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -395,18 +394,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 82962.49,
-        "pct1Day": 0.060622467377734926,
-        "pct5Day": -3.0331304728322466,
-        "pct52WeekHigh": -28.648724285908774,
-        "pct52WeekLow": 43.663548820226225,
-        "sma20": 84191.21796875,
-        "sma50": 80927.66453125,
-        "sma200": 71976.5298046875,
-        "rsi14": 51.721779786269806,
-        "macd": 857.6367875918222,
-        "macdSignal": 1417.6597641844924,
-        "macdHistogram": -560.0229765926701,
+        "currentPrice": 83775.69,
+        "pct1Day": 1.041418706623583,
+        "pct5Day": -2.0826592622948996,
+        "pct52WeekHigh": -27.94933764249078,
+        "pct52WeekLow": 45.07174182287847,
+        "sma20": 84231.877734375,
+        "sma50": 80943.9284375,
+        "sma200": 71980.59578125,
+        "rsi14": 54.67775416672119,
+        "macd": 922.5070689308486,
+        "macdSignal": 1430.6338204522976,
+        "macdHistogram": -508.126751521449,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -422,18 +421,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2495.94,
-        "pct1Day": -0.3229928967957657,
-        "pct5Day": -7.472664878092883,
-        "pct52WeekHigh": -41.85814784817446,
-        "pct52WeekLow": 65.67743487462411,
-        "sma20": 2648.6629272460937,
-        "sma50": 2555.3910205078123,
-        "sma200": 2133.675262451172,
-        "rsi14": 40.4145155964815,
-        "macd": -5.157116701859195,
-        "macdSignal": 30.897521867691168,
-        "macdHistogram": -36.05463856955036,
+        "currentPrice": 2538.31,
+        "pct1Day": 1.3690809475124919,
+        "pct5Day": -5.901960778989863,
+        "pct52WeekHigh": -40.87115686454791,
+        "pct52WeekLow": 68.48990348991046,
+        "sma20": 2650.7814331054688,
+        "sma50": 2556.2384228515625,
+        "sma200": 2133.8871130371094,
+        "rsi14": 44.90484590622372,
+        "macd": -1.7771643336254783,
+        "macdSignal": 31.573512341337914,
+        "macdHistogram": -33.350676674963395,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -444,18 +443,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 109.22,
-        "pct1Day": -0.7398026719721255,
-        "pct5Day": -9.576837667447771,
-        "pct52WeekHigh": -48.262722671140395,
-        "pct52WeekLow": 80.7837560117799,
-        "sma20": 117.28281288146972,
-        "sma50": 108.84540740966797,
-        "sma200": 86.79532623291016,
-        "rsi14": 43.14463909099483,
-        "macd": 1.0006173743049516,
-        "macdSignal": 3.0577263308726317,
-        "macdHistogram": -2.05710895656768,
+        "currentPrice": 111.86,
+        "pct1Day": 1.659454981809175,
+        "pct5Day": -7.391183496435705,
+        "pct52WeekHigh": -47.01216039181253,
+        "pct52WeekLow": 85.1535519820335,
+        "sma20": 117.41481285095215,
+        "sma50": 108.89820739746094,
+        "sma200": 86.8085262298584,
+        "rsi14": 47.82281171198974,
+        "macd": 1.2112156162142327,
+        "macdSignal": 3.099845979254488,
+        "macdHistogram": -1.8886303630402552,
         "trend": "bullish",
         "rsiState": "normal",
         "signals": [
@@ -653,21 +652,26 @@
         "group": "commodity-fx",
         "currency": "CNY",
         "exchangeName": "CCY",
-        "currentPrice": 6.6922,
-        "pct1Day": -0.14771191723676355,
-        "pct5Day": -0.18346182415296328,
-        "pct52WeekHigh": -6.935154153165812,
-        "pct52WeekLow": 0.2681929191076222,
-        "sma20": 6.70474009513855,
-        "sma50": 6.719542016983032,
-        "sma200": 6.816468489170075,
-        "rsi14": 27.61164105850321,
-        "macd": -0.005467355560914378,
-        "macdSignal": -0.00575678363549167,
-        "macdHistogram": 0.0002894280745772927,
+        "currentPrice": 6.683,
+        "pct1Day": -0.2849823291134871,
+        "pct5Day": -0.3206830893897733,
+        "pct52WeekHigh": -7.063093632229626,
+        "pct52WeekLow": 0.1303507483930922,
+        "sma20": 6.704280090332031,
+        "sma50": 6.719358015060425,
+        "sma200": 6.8164224886894225,
+        "rsi14": 22.513458114989803,
+        "macd": -0.00620126636333751,
+        "macdSignal": -0.0059035657959762965,
+        "macdHistogram": -0.00029770056736121327,
         "trend": "bearish",
         "rsiState": "oversold",
         "signals": [
+          {
+            "type": "macd-bear-cross",
+            "label": "MACD 死叉",
+            "daysAgo": 0
+          },
           {
             "type": "rsi-oversold",
             "label": "RSI 超卖"
@@ -789,13 +793,13 @@
       "timestamp": "2026-10-11T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2808842338002.199,
-      "total24hVolumeUsd": 43959110989.89029,
-      "marketCapChangePct24h": -1.8523689844003335,
-      "btcDominance": 59.17597762172208,
-      "ethDominance": 10.832163127474988,
-      "activeCryptocurrencies": 22145
+      "totalMarketCapUsd": 2818416022437.1387,
+      "total24hVolumeUsd": 50492380164.07495,
+      "marketCapChangePct24h": -2.6825695199881667,
+      "btcDominance": 59.605264479753636,
+      "ethDominance": 10.973595530306893,
+      "activeCryptocurrencies": 22175
     },
-    "generated_at": "2026-10-11T08:35:59.202Z"
+    "generated_at": "2026-10-11T18:33:09.603Z"
   }
 }
