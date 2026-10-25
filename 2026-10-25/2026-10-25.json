@@ -1,148 +1,149 @@
 {
-  "hero_headline": "欧洲多国爆发大规模抗议，法国近千人被捕",
-  "daily_overview": "今日，法国及意大利等多国爆发大规模反政府抗议，法国警方逮捕近千人，卢浮宫关闭，紧张局势加剧。巴西总统大选今日举行第二轮投票，左翼现任总统卢拉与极右翼候选人弗拉维奥·博索纳罗展开对决。俄乌同意在南部城市奥列什基局部停火以运送人道物资，美国施压乌克兰尽快达成交易。科技领域，OpenAI公布支撑10亿ChatGPT用户的存储扩展架构，Kimi 3.1 Pro开源模型性能逼近闭源系统，AI安全代理运行时OpenShell引发关注。财经方面，高盛因AI交易信心动摇将韩国Kospi指数目标下调25%，欧洲奢侈品集团因中国需求疲软市值蒸发2500亿欧元，AI计算能力正被视为新的可交易资产，英国预算将投入10亿英镑建设社会住房。",
+  "hero_headline": "奥迪宣布在美投资40亿美元建厂应对关税",
+  "daily_overview": "技术领域，开源AI代理Cindy实现开箱即用，OpenAI公布ChatGPT存储架构扩容细节，AI算力交易市场金融化趋势初显；财经方面，英国预算将投入10亿英镑用于社会住房，伦敦牛津街禁车计划落地，奥迪宣布在美投资40亿美元建厂以规避贸易壁垒，美国中期选举前部分加拿大商品关税取消；时政层面，委内瑞拉反对派领袖马查多结束流亡回国，塞尔维亚选举投票率创历史新高，以色列大选在即、安全形势紧张，全球政治与经济交织的不确定性持续。",
   "tech_briefs": [
     {
-      "title": "OpenAI详解支撑10亿ChatGPT用户的存储扩展架构",
+      "title": "开源AI代理Cindy发布：实现开箱即用",
+      "url": "https://github.com/makecindy/cindy",
+      "source": "GitHub Trending",
+      "summary": "开源项目Cindy提供一个开箱即用的AI Agent，能够让用户通过自然语言指令自动执行任务，旨在降低AI代理的使用门槛。",
+      "importance": 10
+    },
+    {
+      "title": "OpenAI详述存储扩容支撑10亿ChatGPT用户",
       "url": "https://openai.com/index/scaling-storage-one-billion-users-part-two",
       "source": "OpenAI News",
-      "summary": "OpenAI披露其Habitat存储系统如何通过可靠的多租户架构、全球缓存和Azure Cosmos DB实现12倍读取加速，以支撑ChatGPT十亿级用户规模。",
+      "summary": "OpenAI公布Habitat存储系统扩容第二部分，通过可靠的多租户、全局缓存和Azure Cosmos DB，将ChatGPT读取速度提升12倍，以支持超10亿用户。",
       "importance": 9
     },
     {
-      "title": "Kimi 3.1 Pro开源模型发布，性能逼近闭源AI差距仅一月",
+      "title": "Kimi 3.1 Pro开源权重模型接近闭源水平",
       "url": "https://latent.space/p/ainews-kimi-31/",
       "source": "Latent Space",
-      "summary": "Kimi 3.1 Pro 104BA-2.8T参数开放权重模型发布，其能力接近Fable 5.1水平，将开源与最先进闭源模型的差距缩短至约一个月。同时推出2-3倍速度的Pro Highspeed API。",
+      "summary": "Kimi 3.1 Pro 104BA-2.8T模型以开源权重发布，其性能已逼近闭源模型，将闭源领先的时间差缩短至一个月左右，并推出高速API服务。",
       "importance": 8
     },
     {
-      "title": "NVIDIA发布OpenShell：安全私密的自主AI代理运行时",
-      "url": "https://github.com/NVIDIA/OpenShell",
-      "source": "GitHub Trending",
-      "summary": "OpenShell为自主AI代理提供安全、私密的运行环境，解决代理在执行任务时的沙箱隔离与数据保护问题，适用于企业级AI代理部署。",
-      "importance": 7
+      "title": "企业AI代理“科层制”架构成为竞争关键",
+      "url": "https://www.technologyreview.com/2026/10/22/1146109/designing-an-ai-serving-harness-built-to-last/",
+      "source": "MIT Tech Review AI",
+      "summary": "企业AI的竞争焦点正从模型选择转向围绕模型构建的“公司代理服务框架”，多家公司分享了在营销、销售等环节部署内部AI代理的经验。（多家报道）",
+      "importance": 8
     },
     {
-      "title": "Cloudflare推出多阶段安全审计编码代理技能",
-      "url": "https://github.com/cloudflare/security-audit-skill",
-      "source": "GitHub Trending",
-      "summary": "该项目为编码代理提供多阶段安全审计能力，可生成独立验证且机器可读的审计发现，帮助开发者在开发流程中自动化发现安全漏洞。",
-      "importance": 6
-    },
-    {
-      "title": "DeepMind发布全球10米分辨率森林类型地图",
+      "title": "DeepMind绘制全球10米精度森林类型地图",
       "url": "https://deepmind.google/blog/beyond-tree-cover-mapping-the-worlds-forest-types/",
       "source": "DeepMind Blog",
-      "summary": "利用AI将地球每10米见方的土地分类为不同森林类型，提供远超传统树冠覆盖度的精细生态数据，有助于全球森林资源监测与保护。",
+      "summary": "DeepMind发布全球森林类型地图，将每10米见方的土地划分为不同森林类别，提供远超传统树冠覆盖度的细粒度生态数据。",
       "importance": 7
     }
   ],
   "finance_briefs": [
     {
-      "title": "高盛因AI交易瓦解下调韩国Kospi指数目标25%",
-      "url": "https://www.bloomberg.com/news/articles/2026-10-25/goldman-cuts-kospi-12-month-target-by-25-as-ai-trade-unravels",
-      "source": "Bloomberg Markets",
-      "summary": "高盛策略师将对韩国Kospi指数的12个月目标大幅下调25%，此前该机构曾多次上调，反映出对人工智能相关交易前景的担忧加剧。",
-      "importance": 8
-    },
-    {
-      "title": "中国需求下滑致欧洲奢侈品集团市值蒸发2500亿欧元",
-      "url": "https://www.ft.com/content/1c3065cf-538f-433a-9749-0355a3642c7c?syn-25a6b1a6=1",
-      "source": "Financial Times",
-      "summary": "中国消费者需求降温与全球股市回调叠加，导致欧洲主要奢侈品集团总市值蒸发约2500亿欧元，行业面临严峻下行压力。",
-      "importance": 8
-    },
-    {
-      "title": "AI计算能力成为「新石油」，推动金融交易工具创新",
-      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
-      "source": "The Economist Finance",
-      "summary": "金融公司竞相创建可交易AI算力的金融工具，将处理能力视为类似大宗商品的可交易资产，亟需建立专门市场。",
-      "importance": 8
-    },
-    {
-      "title": "英国预算将投入10亿英镑建设社会与可负担住房",
+      "title": "英国预算将投入10亿英镑用于社会住房",
       "url": "https://www.bbc.co.uk/news/articles/cqm24j9y9zn7o?at_medium=RSS&at_campaign=rss",
       "source": "BBC Business",
-      "summary": "英国财政预算案宣布将拨款10亿英镑用于社会及可负担住房建设，使该十年期项目的总资金达到400亿英镑以上。",
+      "summary": "英国财政预算将追加10亿英镑用于社会及可负担住房，使该十年期住房计划的总投入超过400亿英镑。",
+      "importance": 9
+    },
+    {
+      "title": "白宫取消部分加拿大商品关税应对中期选举",
+      "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "美国将从10月30日起取消对部分加拿大机械等产品的关税，同时加征地毯等商品的关税，此举发生在中期选举临近之际。",
       "importance": 7
     },
     {
-      "title": "美国中期选举前夕取消部分加拿大商品关税",
-      "url": "https://www.bbc.co.uk/news/articles/c60qk573yzz8o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Business",
-      "summary": "自10月30日起，美国将取消对部分加拿大机械类商品加征的关税，同时对地毯等其他商品加征关税，被指与中期选举政治考量有关。",
-      "importance": 6
+      "title": "奥迪在美投资40亿美元建厂规避贸易关税",
+      "url": "https://www.ft.com/content/8f034740-12a8-47fe-9010-149f87e70f8e?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "summary": "奥迪宣布在美国佐治亚州建设一座价值40亿美元的工厂，以缓解特朗普政府关税带来的成本压力，但预计要到2030年代初投产。",
+      "importance": 9
+    },
+    {
+      "title": "AI算力交易市场兴起，金融公司争推新工具",
+      "url": "https://www.economist.com/finance-and-economics/2026/10/22/ai-compute-is-the-new-oil-and-needs-a-new-market",
+      "source": "The Economist Finance",
+      "summary": "金融公司正竞相创建交易AI算力的金融工具，将处理能力视为新的大宗商品，催生出新的市场。",
+      "importance": 9
+    },
+    {
+      "title": "伦敦牛津街禁止车辆通行以重振零售业",
+      "url": "https://www.ft.com/content/73a2ca6f-29b7-49e5-b8c7-0bde6c4e945b?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "summary": "伦敦最著名的购物街牛津街实施禁止机动车通行的改造计划，试图借此重振因电商冲击而下滑的商业活力，同时各大品牌加大旗舰店投入。",
+      "importance": 8
     }
   ],
   "politics_briefs": [
     {
-      "title": "欧洲多国爆发大规模抗议，法国警方逮捕近千人",
-      "url": "https://www.bbc.co.uk/news/articles/c95ynd587ynzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "summary": "法国、意大利、西班牙等国爆发反政府示威，数十万人参与；法国动乱中近千人被捕，卢浮宫关闭，抗议浪潮正向欧洲多国蔓延。（多家报道）",
-      "importance": 9
-    },
-    {
-      "title": "巴西总统大选今日举行第二轮投票，左翼与极右翼对决",
-      "url": "https://www.theguardian.com/world/2026/oct/25/lula-da-silva-flavio-bolsonaro-brazil-presidential-election",
+      "title": "委内瑞拉反对派领袖马查多结束流亡回国",
+      "url": "https://www.theguardian.com/world/2026/oct/25/exiled-venezuelan-opposition-leader-maria-corina-machado-announces-her-return",
       "source": "The Guardian",
-      "summary": "巴西举行总统选举第二轮投票，现任总统卢拉与极右翼候选人弗拉维奥·博索纳罗展开激烈角逐，选举结果充满不确定性。",
+      "summary": "流亡近一年的诺贝尔和平奖得主、委内瑞拉反对派领袖马查多宣布返回国内，其回归时机正值该国政治过渡的敏感期。（多家报道）",
       "importance": 9
     },
     {
-      "title": "俄乌同意在奥列什基局部停火，特朗普施压乌克兰",
-      "url": "https://www.dw.com/zh/俄乌将在奥列什基停火-特朗普施压乌克兰-达成交易/a-79751006?maca=chi-rss-chi-all-1127-rdf",
+      "title": "塞尔维亚选举投票率创历史新高",
+      "url": "https://www.bbc.co.uk/news/articles/c6jdmj1ej715o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "塞尔维亚举行议会选举，早期报告显示投票率可能创下历史纪录，学生运动试图挑战执政12年的总统武契奇。",
+      "importance": 8
+    },
+    {
+      "title": "以色列大选日将关闭约旦河西岸所有口岸",
+      "url": "https://www.dw.com/zh/以色列将在大选日关闭所有约旦河西岸口岸/a-79756249?maca=chi-rss-chi-all-1127-rdf",
       "source": "DW 中文",
-      "summary": "俄乌同意在乌克兰南部城市奥列什基实施局部停火，以运送人道援助并撤离平民，美国前总统特朗普公开施压乌克兰接受交易。",
+      "summary": "以色列军方宣布，在下周二大选投票日将关闭与约旦河西岸之间的所有陆路口岸，此前该地区发生过导致两名士兵死亡的袭击事件。",
       "importance": 8
     }
   ],
-  "editor_note": "抗议浪潮折射欧洲社会深层不满，巴西大选可能影响拉美政治版图，俄乌局部停火能否持续尚待观察。AI投资泡沫引发市场警惕，多国调整政策应对变局。",
+  "editor_note": "从开源AI代理发布到企业争相构建代理架构，AI正加速落地；而多国选举背后的政治角力与贸易关税调整，持续塑造全球经济格局。",
   "keywords": [
-    "欧洲抗议",
-    "巴西大选",
-    "俄乌停火",
-    "AI计算",
-    "Kimi",
-    "高盛",
-    "奢侈品"
+    "AI代理",
+    "奥迪",
+    "委内瑞拉",
+    "塞尔维亚选举",
+    "AI算力交易",
+    "牛津街",
+    "社会住房",
+    "以色列大选"
   ],
   "trading": {
-    "market_overview": "美股主要指数 ETF SPY、QQQ 价格均位于20日均线下方，RSI 分别报42.1 和 36.5，MACD 绿柱持续，短期动能偏弱；但大型科技股分化明显，AAPL 维持多头排列且MACD金叉，而GOOGL、META 等回撤显著，整体呈现结构性风险偏好收敛。加密市场总市值降至2.69万亿美元，24小时下跌2.89%，恐慌贪婪指数54处于中性区域；BTC、ETH、SOL 皆运行于20与50日均线之下，RSI 在34.7-42.5区间，MACD 均处负值区间，缺乏明确方向性驱动。中概股板块承压突出，BABA、JD、腾讯等普遍呈空头排列，多只标的RSI 低于30进入超卖区域或接近超卖，MACD 死叉信号密集，反映持续的技术性抛压。商品外汇方面，黄金期货跌破主要均线，MACD 死叉且RSI 30.7 接近超卖，空头排列确立；WTI 原油期货则强势上破20/50/200日均线，RSI 63 偏强，多头排列明显；美元指数DXY 保持多头结构，美元兑人民币USDCNY 跌势延续且RSI 超卖至14.6，显示非美货币与商品内部轮动分化。整体市场风险偏好谨慎，偏防御的美元偏强与原油走强共存，而风险资产偏软。",
+    "market_overview": "美股科技板块分化：AAPL 维持多头排列，而 GOOGL、META、NVDA 等因跌破均线而承压，整体动能中性偏弱。加密市场情绪中性（恐慌贪婪指数 54），总市值 2.70 万亿美元，日跌幅 -2.76%，BTC、ETH 与 SOL 均在短期均线下方整理，未有明确方向。中概股全面弱势，BABA 呈 RSI 超卖且空头排列，腾讯、京东等同样受均线压制。商品与外汇方面，WTI 原油多头排列且 MACD 金叉，黄金则进入空头排列并接近 52 周低，美元指数维持偏多结构，USDCNY 出现极度超卖。整体看，防御性资产承压，部分商品与美元偏强，风险资产缺乏一致性方向。",
     "watchlist": [
       {
         "symbol": "AAPL",
-        "display_name": "苹果（AAPL）",
+        "display_name": "Apple (AAPL)",
         "stance": "偏上行",
-        "rationale": "价格347.73 站稳20日均线338.91、50日均线329.47及200日均线294.41，呈现多头排列；MACD 金叉且柱状图正值4.37，RSI 63.9 中性偏强；距52周高点仅1.14%，短期动量结构偏上行。"
+        "rationale": "股价 347.73 站上所有主要均线（SMA20 338.91、SMA50 329.47、SMA200 294.41），呈典型多头排列；MACD 刚形成金叉，柱状线转正，14 日 RSI 63.9 但未超买，距 52 周高点仅 -1.14%，短期上行动能较强。"
       },
       {
         "symbol": "CL=F",
-        "display_name": "WTI原油期货（CL=F）",
+        "display_name": "WTI 原油期货 (CL=F)",
         "stance": "偏上行",
-        "rationale": "当前价103.27 突破20日均线94.73、50日均线92.93和200日均线85.29，构成标准多头排列；MACD 金叉且柱状图正值2.43，RSI 63.0 未超买，日内涨幅3.82%，技术面偏强上行。"
+        "rationale": "现价 103.27 远高于 SMA20 94.73、SMA50 92.93 及 SMA200 85.29，均线多头排列完好；MACD 金叉延续，DIF 2.43 > 信号线 1.66，柱线正值扩大；14 日 RSI 63.0 显示趋势仍偏多，距 52 周高点回撤 -13.57%，中期趋势偏强。"
       },
       {
         "symbol": "BABA",
-        "display_name": "阿里巴巴（BABA）",
+        "display_name": "阿里巴巴 (BABA)",
         "stance": "偏下行",
-        "rationale": "价格99.64 显著低于20日107.88、50日112.41和200日127.79均线，空头排列完整；RSI 29.9 落入超卖区间，MACD 死叉且绿柱扩大，5日跌幅8.68%，技术面明显偏下行。"
+        "rationale": "现价 99.64 远低于 SMA20 107.88、SMA50 112.41 及 SMA200 127.79，构成空头排列；MACD 死叉并低于信号线，柱状线负值加深；14 日 RSI 29.9 进入超卖区，5 日跌幅 -8.68%，距 52 周高点达 -45.4%，技术面全面弱势。"
       },
       {
-        "symbol": "GC=F",
-        "display_name": "黄金期货（GC=F）",
+        "symbol": "GOOGL",
+        "display_name": "Alphabet (GOOGL)",
         "stance": "偏下行",
-        "rationale": "现价4007.9 远低于20日均线4155.26、50日均线4341.87及200日均线4532.9，空头排列显著；MACD 死叉持续，绿柱 -63.63，RSI 30.7 逼近超卖，日跌1.29%，弱势结构偏下行。"
+        "rationale": "股价 320.21 跌破所有均线（SMA20 343.08、SMA50 342.94、SMA200 341.31），短期均线死叉长期均线，形成空头结构；MACD 死叉且柱线持续在零轴下方；14 日 RSI 31.3 未超卖但偏弱，5 日跌幅 -5.98%，下行压力明显。"
       },
       {
-        "symbol": "TSLA",
-        "display_name": "特斯拉（TSLA）",
+        "symbol": "MSFT",
+        "display_name": "Microsoft (MSFT)",
         "stance": "中性",
-        "rationale": "价格372.22 处于20日均线369.87上方，但低于200日均线386.35，多空均线交织；MACD 刚出现死叉但柱状图接近零轴，RSI 51.5 居中性区域，未见明确方向性信号，格局偏中性。"
+        "rationale": "股价 524.51 仍站上 SMA50 508.43 与 SMA200 436.51，维持多头结构基础，但已跌破 SMA20 526.7；MACD 刚形成死叉（DIF 7.15 < 信号线 9.45），柱线转负，14 日 RSI 52.6 处在中立区间，短期多空信号冲突，呈中性整理。"
       }
     ],
-    "risk_caveat": "本报告仅基于技术指标数值进行客观描述，不构成任何投资建议。过去走势不代表未来表现，技术信号可能失效或滞后，所有判断仅供技术指标解读参考，使用者需自行承担全部风险。",
+    "risk_caveat": "本报告仅基于公开行情数据计算的技术指标进行客观状态描述，不构成任何投资建议。所有技术指标均为滞后性的历史数据推导，过去走势不代表未来表现。文中 stance 方向标签仅反映当前技术面设置，非涨跌预测，仅供技术指标解读参考。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -361,18 +362,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 80307.61,
-        "pct1Day": -0.598119739562819,
-        "pct5Day": -3.175015975211294,
-        "pct52WeekHigh": -30.932034187381436,
-        "pct52WeekLow": 39.06617617034743,
-        "sma20": 82270.053515625,
-        "sma50": 81810.39515625,
-        "sma200": 72946.7612890625,
-        "rsi14": 42.495906870962365,
-        "macd": -303.51543746904645,
-        "macdSignal": 25.43168711073477,
-        "macdHistogram": -328.9471245797812,
+        "currentPrice": 80561.95,
+        "pct1Day": -0.2833068068228303,
+        "pct5Day": -2.868364258931051,
+        "pct52WeekHigh": -30.713290952154026,
+        "pct52WeekLow": 39.50660879245093,
+        "sma20": 82282.770703125,
+        "sma50": 81815.48203125,
+        "sma200": 72948.0330078125,
+        "rsi14": 43.382662598032844,
+        "macd": -283.2259075545153,
+        "macdSignal": 29.489593093641005,
+        "macdHistogram": -312.7155006481563,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -383,18 +384,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 2333.97,
-        "pct1Day": -0.9331089184999938,
-        "pct5Day": -4.60862784353604,
-        "pct52WeekHigh": -45.091714953172094,
-        "pct52WeekLow": 54.9260649992894,
-        "sma20": 2453.8850952148437,
-        "sma50": 2543.483076171875,
-        "sma200": 2157.3336920166016,
-        "rsi14": 34.70570834610656,
-        "macd": -54.95900548399459,
-        "macdSignal": -43.926180469109184,
-        "macdHistogram": -11.032825014885404,
+        "currentPrice": 2351.86,
+        "pct1Day": -0.17375610700367314,
+        "pct5Day": -3.877448073496506,
+        "pct52WeekHigh": -44.67084012638007,
+        "pct52WeekLow": 56.11358124964282,
+        "sma20": 2454.7796020507812,
+        "sma50": 2543.84087890625,
+        "sma200": 2157.4231427001955,
+        "rsi14": 36.046605586977435,
+        "macd": -53.531872070533154,
+        "macdSignal": -43.640753786416894,
+        "macdHistogram": -9.89111828411626,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -405,18 +406,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 100.96,
-        "pct1Day": -1.2825252401146474,
-        "pct5Day": -5.132700871726265,
-        "pct52WeekHigh": -50.75603581210716,
-        "pct52WeekLow": 67.11159134727428,
-        "sma20": 106.89444503784179,
-        "sma50": 109.58379302978516,
-        "sma200": 88.36048816680908,
-        "rsi14": 35.42687744847916,
-        "macd": -2.4905604810582957,
-        "macdSignal": -1.849205695504386,
-        "macdHistogram": -0.6413547855539097,
+        "currentPrice": 101.68,
+        "pct1Day": -0.5785178923816962,
+        "pct5Day": -4.456151194900212,
+        "pct52WeekHigh": -50.404850647534225,
+        "pct52WeekLow": 68.3033538846162,
+        "sma20": 106.93044509887696,
+        "sma50": 109.59819305419921,
+        "sma200": 88.3640881729126,
+        "rsi14": 36.56377471390668,
+        "macd": -2.433124486244367,
+        "macdSignal": -1.8377184965416002,
+        "macdHistogram": -0.5954059897027666,
         "trend": "neutral",
         "rsiState": "normal",
         "signals": []
@@ -616,18 +617,18 @@
         "group": "commodity-fx",
         "currency": "CNY",
         "exchangeName": "CCY",
-        "currentPrice": 6.6702,
-        "pct1Day": -0.11530327919362374,
-        "pct5Day": -0.30937316960847216,
-        "pct52WeekHigh": -7.241096385709713,
-        "pct52WeekLow": 0.14413115935502388,
-        "sma20": 6.69437997341156,
-        "sma50": 6.707147989273071,
-        "sma200": 6.801801979541779,
-        "rsi14": 14.619235728593537,
-        "macd": -0.009401604162392552,
-        "macdSignal": -0.007633011122764123,
-        "macdHistogram": -0.0017685930396284287,
+        "currentPrice": 6.6606,
+        "pct1Day": -0.2590610508526164,
+        "pct5Day": -0.45285162866094886,
+        "pct52WeekHigh": -7.374598450819791,
+        "pct52WeekLow": 0,
+        "sma20": 6.693899989128113,
+        "sma50": 6.706955995559692,
+        "sma200": 6.801753981113434,
+        "rsi14": 11.732378017874098,
+        "macd": -0.010167391053363062,
+        "macdSignal": -0.007786168500958225,
+        "macdHistogram": -0.002381222552404837,
         "trend": "bearish",
         "rsiState": "oversold",
         "signals": [
@@ -737,13 +738,13 @@
       "timestamp": "2026-10-25T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2685532050871.7896,
-      "total24hVolumeUsd": 54471783464.09252,
-      "marketCapChangePct24h": -2.8907994182650145,
-      "btcDominance": 60.103306176352454,
-      "ethDominance": 10.616372457194357,
-      "activeCryptocurrencies": 22490
+      "totalMarketCapUsd": 2695410817493.727,
+      "total24hVolumeUsd": 40181095326.75093,
+      "marketCapChangePct24h": -2.762115636506161,
+      "btcDominance": 60.0387510360487,
+      "ethDominance": 10.648593967811848,
+      "activeCryptocurrencies": 22500
     },
-    "generated_at": "2026-10-25T08:31:55.002Z"
+    "generated_at": "2026-10-25T18:31:07.905Z"
   }
 }
