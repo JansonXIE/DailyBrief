@@ -1,135 +1,141 @@
 {
-  "hero_headline": "英伟达黄仁勋突然辞职，全球芯片与AI格局生变",
-  "daily_overview": "本周科技界最震撼的消息莫过于英伟达CEO黄仁勋辞职，Colette Kress临危受命，此事引发了对芯片巨头未来及AI开源的广泛担忧。财经方面，分析人士警示欧洲股市涨势或将终结，加密货币市场持续阴跌令交易员疲惫，而养老金基金则在COP31上呼吁关注气候引发的系统性金融风险。地缘政治层面，伊朗宣称袭击巴林美军基地雷达，海湾紧张局势再升级；同时德国劳动局警告AI在未来15年可能吞噬80万个就业岗位，而韩国爆出的AI考试作弊丑闻更凸显了技术监管的迫切性。",
+  "hero_headline": "英伟达CEO黄仁勋辞职，全球芯片市场震动",
+  "daily_overview": "近日科技界动态频出：OpenAI推出钱包开启Agent经济，Google发布Gemini 4 Hydrogen与AlphaGenome 2模型；开源项目llama.cpp与Univer SDK推动本地智能化。财经领域，英伟达CEO突然辞职引发财长要求改组并审查芯片出口，市场震荡；FDA拒绝中国药物申请，香港新世界供股减债，微软全球宕机事件广泛影响。国际时政上，伊朗无人机袭击美军基地，中东冲突风险急升；乌克兰总统要求解除星链限制；捷克爆发大规模抗议，媒体自由面临考验。",
   "tech_briefs": [
     {
-      "title": "英伟达CEO黄仁勋辞职，临时CEO Kress接掌",
-      "url": "https://latent.space/p/ainews-jensen-huang-resigns-after-33-years-leading-nvidia/",
-      "source": "Latent Space",
-      "summary": "黄仁勋在执掌英伟达33年后突然宣布辞职，由CFO Colette Kress出任临时CEO。外界高度关注此变动对开源生态及美国AI领导地位可能造成的冲击。（多家报道）",
-      "importance": 10
-    },
-    {
-      "title": "OpenAI推出ChatGPT钱包，智能体支付获安全通道",
+      "title": "OpenAI推出ChatGPT Wallet，Agent购物获用户审批",
       "url": "https://openai.com/index/introducing-chatgpt-wallet",
       "source": "OpenAI News",
-      "summary": "OpenAI发布ChatGPT Wallet，为ChatGPT Work、Codex及dots中的智能体提供需用户批准的购买路径，并沿用现有银行卡保障机制，旨在让代理交易更安全可控。",
+      "summary": "新钱包让Agent在用户审核和现有卡片保护下安全完成购买，拓展Agent商业应用场景。",
       "importance": 8
     },
     {
-      "title": "llama.cpp发布v1.0，夯实本地AI生态根基",
+      "title": "Google DeepMind发布Gemini 4 Hydrogen语言模型",
+      "url": "https://deepmind.google/blog/introducing-gemini-4-hydrogen/",
+      "source": "DeepMind Blog",
+      "summary": "新一代多模态模型，推理与效率显著提升，代表AI能力边界再扩展。",
+      "importance": 9
+    },
+    {
+      "title": "AlphaGenome 2破译细胞读取DNA机制，赋能疾病研究",
+      "url": "https://deepmind.google/blog/alphagenome-2-deciphering-how-cells-read-dna-to-better-understand-disease/",
+      "source": "DeepMind Blog",
+      "summary": "该模型预测DNA序列和变异如何影响特定人体细胞与疾病，推动精准医学进步。",
+      "importance": 10
+    },
+    {
+      "title": "llama.cpp v1.0发布：本地AI生态基石升级",
       "url": "https://huggingface.co/blog/ggml-org/llama-cpp-v1",
       "source": "Hugging Face Blog",
-      "summary": "llama.cpp推出v1.0.0版本，标志着这一在消费级硬件上运行大语言模型的关键推理框架趋于成熟，为本地AI应用的稳定性和可扩展性提供了更坚实的基础。",
+      "summary": "首个稳定版本优化推理性能，支持丰富模型，是社区在本地运行大型语言模型的核心工具，降低部署门槛。",
       "importance": 7
     },
     {
-      "title": "ArtCraft用AI克隆Photoshop，誓言「重建一切」",
-      "url": "https://latent.space/p/artcraft/",
-      "source": "Latent Space",
-      "summary": "初创公司ArtCraft利用AI以开源方式重写了Photoshop，其CEO Brandon Thomas更提出要“夺回互联网”，展示了用生成式AI颠覆成熟软件工具的巨大潜力。",
-      "importance": 7
+      "title": "开源Office SDK Univer连接AI与办公自动化",
+      "url": "https://github.com/dream-num/univer",
+      "source": "GitHub Trending",
+      "summary": "为应用添加编辑、计算、协作等功能，使AI代理可操作文档，企业集成办公能力。",
+      "importance": 6
     }
   ],
   "finance_briefs": [
     {
-      "title": "机构警示：欧洲股市近期涨势行将终结",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-15/state-street-pictet-call-time-on-europe-s-stock-market-rally",
-      "source": "Bloomberg Markets",
-      "summary": "State Street和Pictet等机构表示，欧洲股市罕见的跑赢行情可能即将结束，因AI动荡等干扰下其他市场表现缓滞的红利已基本消化。",
-      "importance": 8
-    },
-    {
-      "title": "加密货币阴跌不止，交易员陷入疲惫与绝望",
-      "url": "https://www.bloomberg.com/news/articles/2026-11-15/crypto-s-slow-motion-selloff-leaves-traders-weary-and-hopeless",
-      "source": "Bloomberg Markets",
-      "summary": "比特币连续遭遇利空，缓慢下跌考验着最坚定投资者的耐心，价格正向年内低点滑落，市场情绪普遍低迷。",
-      "importance": 7
-    },
-    {
-      "title": "养老金基金警示气候事件引发的系统性风险",
-      "url": "https://www.ft.com/content/fcce6df7-7040-4c83-84ea-30f8fbac1239?syn-25a6b1a6=1",
+      "title": "英伟达CEO黄仁勋辞职，芯片出口管制合规受关注",
+      "url": "https://www.ft.com/content/24edbb84-7520-4ef0-a57c-30359e12ccc5?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "summary": "在COP31上，资产管理人、保险公司和央行官员共同讨论气温上升对金融稳定的威胁，养老金基金敦促正视气候变化的系统性冲击。",
-      "importance": 8
+      "summary": "黄仁勋突然辞去英伟达CEO，财长Bessent要求改组并调查对华出口合规，新加坡等芯片枢纽受牵连。（多家报道）",
+      "importance": 10
     },
     {
-      "title": "英伟达步入后黄仁勋时代，前路几何？",
-      "url": "https://www.ft.com/content/0e2720d7-ba0a-4469-a854-30931f907bd3",
+      "title": "FDA拒绝中国发明癌症新药，北京生物科技出口受挫",
+      "url": "https://www.ft.com/content/390948a3-429c-410a-b5fe-54cc5a380b99?syn-25a6b1a6=1",
       "source": "Financial Times",
-      "summary": "英伟达凭借自身行为树敌众多，创始人的离去令公司面临空前挑战，市场正重新评估这家芯片巨头在缺乏灵魂人物的情况下的未来走向。",
+      "summary": "Summit公司的Ivonescimab被FDA否决，被视为检验中国医药能否通过美国审评的试金石。",
       "importance": 9
+    },
+    {
+      "title": "香港新世界发展32亿美元供股，折价82%减债",
+      "url": "https://www.ft.com/content/9daa3a26-c49c-4c94-91af-0d4c2116d2e4?syn-25a6b1a6=1",
+      "source": "Financial Times",
+      "summary": "郑氏家族开发商大幅折价配股融资，加速削减高额债务，市场反应关注。",
+      "importance": 8
+    },
+    {
+      "title": "微软确认全球中断已恢复，Teams与Copilot正常",
+      "url": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Business",
+      "summary": "影响Outlook和Teams等服务的日间全球中断已完全修复，微软未说明原因。",
+      "importance": 7
     }
   ],
   "politics_briefs": [
     {
-      "title": "伊朗宣称袭击巴林美军雷达，海湾再燃战火",
-      "url": "https://www.theguardian.com/world/live/2026/nov/15/middle-east-crisis-live-iran-bahrain-strikes-gulf-donald-trump-us-israel-yemen-houthis",
+      "title": "伊朗无人机袭美军驻巴林基地，中东局势急升",
+      "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
       "source": "The Guardian",
-      "summary": "伊朗革命卫队声称向巴林海勒费耶空军基地的美军防空雷达发射了六架无人机，该基地为美国第五舰队驻地，此举令中东紧张局势急剧升级。",
+      "summary": "伊朗向美军在巴林的海军支援基地发动无人机攻击，和平谈判前景更暗淡，冲突升级风险加剧。",
       "importance": 9
     },
     {
-      "title": "德国劳动局长：AI将在15年内吞噬80万就业岗位",
-      "url": "https://www.dw.com/zh/德国劳动局长警告：ai将在15年内吞噬80万个就业岗位/a-79928366?maca=chi-rss-chi-all-1127-rdf",
-      "source": "DW 中文",
-      "summary": "德国联邦劳动局局长纳勒斯预计，至2041年约80万岗位将被人工智能取代，但也强调会创造同等数量的新岗位，且该国长期面临的更大挑战仍是专业人才短缺。",
-      "importance": 7
+      "title": "泽连斯基吁解除星链限制，站“历史正确一边”",
+      "url": "https://www.bbc.co.uk/news/articles/c6m25zg88k45o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "summary": "乌克兰总统表示星链仍受限制，阻碍反击俄国攻势，要求美国站在历史正确一边。",
+      "importance": 8
     },
     {
-      "title": "分析指黄仁勋丑闻暴露监管俘获及中国影响力行动风险",
-      "url": "https://www.dw.com/zh/墙外文摘：黄仁勋事件、英伟达芯片、美国出口管制与中国影响力/a-79951500?maca=chi-rss-chi-all-1127-rdf",
-      "source": "DW 中文",
-      "summary": "评论指出，黄仁勋辞职的真正分量在于监管俘获——企业家通过私人渠道游说有利中国的政策；同时提醒中国情报机构更擅长影响力行动而非直接窃密。",
+      "title": "数十万人布拉格示威捍卫媒体自由",
+      "url": "https://www.theguardian.com/world/2026/nov/15/czechia-protest-prague-media-freedom",
+      "source": "The Guardian",
+      "summary": "捷克政府试图将公共广播资金改为国家预算，民众大规模集会抗议，认为此举会削弱媒体独立性。（多家报道）",
       "importance": 8
     }
   ],
-  "editor_note": "黄仁勋辞职震动全球科技业，折射出AI狂飙中企业治理的脆弱性；地缘与技术交织下，监管、人才和安全的多重挑战正同时浮出水面。",
+  "editor_note": "本周科技巨头突发变动与地缘冲突交叠，芯片供应链和AI经济的稳定性受考验，公众应对关键领域政策走向保持关切。",
   "keywords": [
-    "黄仁勋",
-    "英伟达",
-    "OpenAI钱包",
-    "海湾冲突",
-    "AI就业",
-    "出口管制",
-    "加密货币",
-    "llama.cpp"
+    "英伟达CEO辞职",
+    "ChatGPT Wallet",
+    "Gemini 4",
+    "伊朗美军袭击",
+    "捷克抗议",
+    "AlphaGenome 2",
+    "FDA拒绝"
   ],
   "trading": {
-    "market_overview": "本周风险资产分化显著：美股大盘指数 SPY 与 QQQ 短线反弹后受阻于 20/50 日均线，RSI 维持中性（47.1 与 42.8），但个股结构分化——AAPL 多头排列且 MACD 金叉，而 NVDA 进入 RSI 超卖区间（24.9），5 日跌幅达 -12.75%。加密市场情绪极度恐慌（恐慌贪婪指数 10），总市值 2.21T 美元 24 小时缩水 5.28%，BTC/ETH/SOL 均触及 RSI 超卖，价格远低于 SMA20/50/200，BTC 主导率 59.5%，ETH 占比 10.1%，表明资金集中于龙头资产但整体空头主导。中概股全线下行，BABA、腾讯等标的空头排列且逼近 52 周低点，仅 JD 有 MACD 金叉但趋势中性。商品与外汇方面，黄金期货空头排列并接近 52 周低，MACD 死叉向下；WTI 原油在 200 日均线上方弱势震荡；美元指数 DXY 多头排列、MACD 金叉，10 年期美债收益率同步拉升，构成对风险资产的压制背景。整体看，避险资产与美元走强，风险类别中仅个别科技权重保持强势。",
+    "market_overview": "今日市场风险资产承压，币市情绪极度恐慌（恐慌贪婪指数仅10），加密总市值单日缩水5.02%至2.20万亿美元，BTC主导率59.4%，ETH占比10.1%。美股指数标普500（SPY）RSI 47.1，价格受制于20/50日均线，走势中性；纳指100（QQQ）RSI 42.8，近五个交易日反弹3.63%但仍深陷均线压制。加密资产全线超卖，BTC RSI 22.2、ETH RSI 24.5、SOL RSI低至17.8，均为典型弱势。中概股普遍疲弱，阿里巴巴空头排列、MACD死叉，腾讯控股0700.HK同样空头排列，反弹无力；商品与外汇方面，黄金期货MACD死叉且均线空排，美元指数DXY则MACD金叉、多头排列、逼近52周高点，凸显避险与加息预期扰动。整体市场技术面呈现风险资产偏下行、防御性资产偏上行的分化格局。",
     "watchlist": [
       {
         "symbol": "AAPL",
-        "display_name": "苹果 (AAPL)",
+        "display_name": "Apple (AAPL)",
         "stance": "偏上行",
-        "rationale": "当前价格 356.27 站稳 SMA20（346.15）、SMA50（339.04）与 SMA200（301.25），呈现标准多头排列；MACD（4.17）上穿信号线（3.28）形成金叉，红柱持续扩大；RSI 14 报 60.6，温和偏强；距 52 周高仅 -1.26%，短期动能充沛，技术结构明显偏上行。"
+        "rationale": "当前价格356.27站上20/50/200日均线（346.15/339.04/301.25），呈多头排列；RSI 60.6属正常偏强；MACD柱状线正值且已金叉（MACD 4.17>信号3.28）；距52周高点仅-1.26%，动量偏上行。"
       },
       {
-        "symbol": "BABA",
-        "display_name": "阿里巴巴 (BABA)",
-        "stance": "偏下行",
-        "rationale": "股价 94.38 远低于 SMA20（102.26）、SMA50（106.87）和 SMA200（122.79），呈空头排列；MACD（-2.43）与信号线（-1.90）形成死叉，绿柱延续；RSI 14 为 33.7，接近超卖但未回升；距 52 周低仅 2.6%，形态持续偏弱，空头压力显著。"
+        "symbol": "DX-Y.NYB",
+        "display_name": "美元指数 DXY (DX-Y.NYB)",
+        "stance": "偏上行",
+        "rationale": "当前103.41位于20/50/200日均线（102.08/101.41/99.85）之上，为典型多头排列；RSI 66.8；MACD金叉（0.3575>0.2428），柱状线正值扩大；距52周高点仅-0.03%，多头技术结构明显。"
       },
       {
         "symbol": "NVDA",
-        "display_name": "英伟达 (NVDA)",
+        "display_name": "Nvidia (NVDA)",
         "stance": "偏下行",
-        "rationale": "价格 162.85 跌破 SMA20（198.69）、SMA50（214.65）和 SMA200（204.19），呈空头排列；RSI 14 仅 24.9，落入超卖区间；MACD 绿柱（-14.23）持续放大并低于信号线，未见收敛；5 日跌幅 -12.75%，距 52 周高 -33.09%，短期与中期动量均偏下行。"
+        "rationale": "RSI 14仅24.9，处于超卖区间；价格162.85远低于20/50/200日均线（198.69/214.65/204.19），MACD死叉持续且绿柱扩大（-14.23远低于信号-10.11）；近5日跌幅达-12.75%，技术面显著偏弱。"
       },
       {
-        "symbol": "^TNX",
-        "display_name": "10 年期美债收益率 (^TNX)",
-        "stance": "偏上行",
-        "rationale": "收益率 5.15% 站上 SMA20（4.99）、SMA50（5.06）与 SMA200（4.58），趋势 Bullish 且多头排列；MACD（-0.012）上穿信号线（-0.0328）形成金叉，绿柱收缩；RSI 14 报 61，走势稳健；距 52 周低仅 0%，反映价格（收益率）高位运行，技术面偏上行。"
+        "symbol": "SOL-USD",
+        "display_name": "Solana (SOL-USD)",
+        "stance": "偏下行",
+        "rationale": "RSI 14低至17.8，为21只标的中最严重的超卖状态；价格71.17显著低于所有主要均线，MACD快线-7.54远低于信号线-5.96，空头动能未衰减；距52周高点-51.98%，近5日跌14.52%，极弱势。"
       },
       {
         "symbol": "TSLA",
-        "display_name": "特斯拉 (TSLA)",
+        "display_name": "Tesla (TSLA)",
         "stance": "中性",
-        "rationale": "价格 390.22 在 SMA20（385.36）与 SMA50（374.74）之间震荡，略高于 SMA200（382.73），均线彼此纠缠；RSI 14 报 53.5，处于中性区间；MACD（3.35）与信号线（3.49）近乎死叉，无明显柱线方向；远近高低位参考有限，短线呈无趋势状态。"
+        "rationale": "价格390.22略微站上20/50日均线（385.36/374.74），但受制于200日均线382.73附近；RSI 53.5处于中性区；MACD接近零轴且快线3.35略低于信号3.49，无明显金叉或死叉；趋势信号为中性，多空暂平衡。"
       }
     ],
-    "risk_caveat": "本报告所有技术指标读数和形态描述均基于公开行情数据计算得出，过去走势不代表未来表现，所展示的任何技术状态均不构成投资建议或操作指引，仅供技术指标解读参考，投资者应独立判断并谨慎决策。",
+    "risk_caveat": "本报告内容仅为基于历史行情数据的技术指标客观描述，不构成任何投资建议或未来走势预测。过去走势不代表未来表现，投资者应结合自身情况独立决策，本解读仅供技术指标学习参考。",
     "tickers": [
       {
         "symbol": "SPY",
@@ -358,18 +364,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 65411.87,
-        "pct1Day": 2.0019620167924557,
-        "pct5Day": -11.269986408687839,
-        "pct52WeekHigh": -33.158114706020605,
-        "pct52WeekLow": 13.271689159369386,
-        "sma20": 75060.9,
-        "sma50": 79757.1978125,
-        "sma200": 72922.4510546875,
-        "rsi14": 25.020610124508266,
-        "macd": -3499.2036788944824,
-        "macdSignal": -2368.404365877631,
-        "macdHistogram": -1130.7993130168516,
+        "currentPrice": 64646.54,
+        "pct1Day": 0.8085217193309713,
+        "pct5Day": -12.308142653140704,
+        "pct52WeekHigh": -33.94017612808424,
+        "pct52WeekLow": 11.946391138316931,
+        "sma20": 75022.6333984375,
+        "sma50": 79741.891171875,
+        "sma200": 72918.62439453125,
+        "rsi14": 22.211420308739235,
+        "macd": -3560.2558067434875,
+        "macdSignal": -2380.6147914474323,
+        "macdHistogram": -1179.6410152960552,
         "trend": "neutral",
         "rsiState": "oversold",
         "signals": [
@@ -385,18 +391,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 1825.77,
-        "pct1Day": 3.202128805424272,
-        "pct5Day": -10.945907617479927,
-        "pct52WeekHigh": -47.027275511552936,
-        "pct52WeekLow": 21.192372521391725,
-        "sma20": 2163.46572265625,
-        "sma50": 2377.894580078125,
-        "sma200": 2142.4863641357424,
-        "rsi14": 25.613389830699077,
-        "macd": -139.173218350556,
-        "macdSignal": -102.17739483559185,
-        "macdHistogram": -36.995823514964144,
+        "currentPrice": 1814.4,
+        "pct1Day": 2.5594365689883225,
+        "pct5Day": -11.500492822839444,
+        "pct52WeekHigh": -47.35716365597071,
+        "pct52WeekLow": 20.43764587150252,
+        "sma20": 2162.8972229003907,
+        "sma50": 2377.667180175781,
+        "sma200": 2142.429514160156,
+        "rsi14": 24.515258974726564,
+        "macd": -140.08022650805242,
+        "macdSignal": -102.35879646709114,
+        "macdHistogram": -37.72143004096128,
         "trend": "neutral",
         "rsiState": "oversold",
         "signals": [
@@ -412,18 +418,18 @@
         "group": "crypto",
         "currency": "USD",
         "exchangeName": "CCC",
-        "currentPrice": 71.94,
-        "pct1Day": 2.512428001023238,
-        "pct5Day": -13.59624377696876,
-        "pct52WeekHigh": -51.462730069628115,
-        "pct52WeekLow": 19.076940189410784,
-        "sma20": 88.77198677062988,
-        "sma50": 101.82459426879883,
-        "sma200": 88.77643142700195,
-        "rsi14": 19.746132876751858,
-        "macd": -7.480038049345552,
-        "macdSignal": -5.943929299371664,
-        "macdHistogram": -1.536108749973888,
+        "currentPrice": 71.17,
+        "pct1Day": 1.4152001783823223,
+        "pct5Day": -14.52105462339264,
+        "pct52WeekHigh": -51.98224213310304,
+        "pct52WeekLow": 17.802416364753487,
+        "sma20": 88.73348655700684,
+        "sma50": 101.8091941833496,
+        "sma200": 88.77258140563964,
+        "rsi14": 17.79583073929929,
+        "macd": -7.541462891593156,
+        "macdSignal": -5.956214267821185,
+        "macdHistogram": -1.585248623771971,
         "trend": "neutral",
         "rsiState": "oversold",
         "signals": [
@@ -614,18 +620,18 @@
         "group": "commodity-fx",
         "currency": "CNY",
         "exchangeName": "CCY",
-        "currentPrice": 6.6712,
-        "pct1Day": 0.011991144657206989,
-        "pct5Day": -0.07190111100342025,
-        "pct52WeekHigh": -7.227189920594087,
-        "pct52WeekLow": 0.34897713598074775,
-        "sma20": 6.671929955482483,
-        "sma50": 6.6907499980926515,
-        "sma200": 6.780533981323242,
-        "rsi14": 43.380673734296785,
-        "macd": -0.00601867138930956,
-        "macdSignal": -0.007629886324071508,
-        "macdHistogram": 0.001611214934761948,
+        "currentPrice": 6.6705,
+        "pct1Day": 0.0014970215907010311,
+        "pct5Day": -0.08238643136891853,
+        "pct52WeekHigh": -7.236924446175033,
+        "pct52WeekLow": 0.33844765342960237,
+        "sma20": 6.671894955635071,
+        "sma50": 6.690735998153687,
+        "sma200": 6.780530481338501,
+        "rsi14": 42.71987539798584,
+        "macd": -0.006074511601704913,
+        "macdSignal": -0.0076410543665505785,
+        "macdHistogram": 0.0015665427648456657,
         "trend": "bearish",
         "rsiState": "normal",
         "signals": [
@@ -747,13 +753,13 @@
       "timestamp": "2026-11-15T00:00:00.000Z"
     },
     "crypto_global": {
-      "totalMarketCapUsd": 2210473980005.0337,
-      "total24hVolumeUsd": 125100566668.60432,
-      "marketCapChangePct24h": -5.276060880583197,
-      "btcDominance": 59.50510218677946,
-      "ethDominance": 10.09233431773817,
-      "activeCryptocurrencies": 22250
+      "totalMarketCapUsd": 2196444347126.1604,
+      "total24hVolumeUsd": 109829506558.8666,
+      "marketCapChangePct24h": -5.01989638631146,
+      "btcDominance": 59.368876957606034,
+      "ethDominance": 10.126786264836165,
+      "activeCryptocurrencies": 22253
     },
-    "generated_at": "2026-11-15T10:19:10.902Z"
+    "generated_at": "2026-11-15T18:21:26.384Z"
   }
 }
